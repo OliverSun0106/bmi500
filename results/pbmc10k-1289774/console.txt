@@ -1,0 +1,57 @@
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+SECTION imports: 2.640432 seconds
+scanpy==1.10.2 anndata==0.10.8 umap==0.5.12 numpy==1.26.4 scipy==1.17.1 pandas==2.3.3 scikit-learn==1.9.1 statsmodels==0.15.0 igraph==0.11.6 louvain==0.8.2 pynndescent==0.6.0
+SECTION settings: 13.343091 seconds
+using 1 threads
+SECTION arguments: 0.001597 seconds
+--> This might be very slow. Consider passing `cache=True`, which enables much faster reading from a cache file.
+SECTION read_data: 3.638175 seconds
+filtered out 232 cells that have less than 200 genes expressed
+filtered out 13246 genes that are detected in less than 3 cells
+SECTION filter: 0.419334 seconds
+normalizing counts per cell
+    finished (0:00:00)
+SECTION normalize_log: 0.453648 seconds
+extracting highly variable genes
+    finished (0:00:01)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+SECTION highly_variable_genes: 1.388422 seconds
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/preprocessing/_scale.py:316: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+... as `zero_center=True`, sparse input is densified and may lead to large memory consumption
+SECTION scale: 0.186963 seconds
+SECTION report_placeholder: 0.000004 seconds
+computing PCA
+    with n_comps=30
+    finished (0:00:01)
+SECTION pca: 1.092524 seconds
+computing neighbors
+    using 'X_pca' with n_pcs = 30
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:33)
+SECTION neighbors: 33.035398 seconds
+SECTION paga_placeholder: 0.000004 seconds
+running Louvain clustering
+    using the "louvain" package of Traag (2017)
+    finished: found 16 clusters and added
+    'louvain', the cluster labels (adata.obs, categorical) (0:00:00)
+SECTION louvain: 0.794572 seconds
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm) (0:00:14)
+SECTION umap: 14.371334 seconds
+SECTION write_h5ad: 0.725414 seconds
+ranking genes
+    finished: added to `.uns['rank_genes_groups']`
+    'names', sorted np.recarray to be indexed by group ids
+    'scores', sorted np.recarray to be indexed by group ids
+    'logfoldchanges', sorted np.recarray to be indexed by group ids
+    'pvals', sorted np.recarray to be indexed by group ids
+    'pvals_adj', sorted np.recarray to be indexed by group ids (0:00:14)
+SECTION rank_genes_groups: 14.236247 seconds

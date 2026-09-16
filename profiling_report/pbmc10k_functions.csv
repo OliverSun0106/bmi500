@@ -1,0 +1,1058 @@
+file,line,function,primitive_calls,total_calls,self_seconds,cumulative_seconds
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/legacy_api_wrap/__init__.py,83,fn_compatible,1,2,0.001278571,14.227515898
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,469,rank_genes_groups,1,1,0.0006793810000000001,13.850253766000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,398,compute_statistics,1,1,0.014186358000000001,13.813420385
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,45,_ranks,25,25,0.098461983,8.929652024000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,277,wilcoxon,17,17,0.015744079,8.796772493
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,10012,rank,24,24,0.00014450700000000002,8.311573869
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,10127,ranker,24,24,0.0006875900000000001,8.311410422
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,1067,rank,24,24,8.304321847,8.305981069000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,174,_basic_stats,1,1,0.019205256,3.06305804
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_index.py,29,__getitem__,56,56,0.000614411,2.7251079760000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_csc.py,140,_get_arrayXslice,32,32,0.000168726,2.659877593
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,651,_minor_index_fancy,32,32,0.001395027,2.6596679780000003
+~,0,<built-in method scipy.sparse._sparsetools.csr_column_index2>,32,32,2.2350413650000003,2.2350413650000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1177,__getitem__,855,856,0.004974489,1.189575542
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1720,_getitem_axis,853,853,0.004230386,1.148022452
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1690,_getitem_tuple,469,469,0.0033185750000000003,1.1475468770000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1005,_getitem_tuple_same_dim,384,384,0.0028605920000000003,1.113637298
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1206,_getbool_axis,391,391,0.001381941,1.110155059
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4164,_take_with_is_copy,391,391,0.002077085,1.093495416
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4049,take,391,391,0.004180408,1.084957042
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,888,take,391,391,0.002150318,1.069366034
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,642,reindex_indexer,392,392,0.005147631000000001,1.0414070640000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,1353,take_nd,467,467,0.0039791900000000005,1.0273398230000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py,59,take_nd,481,482,0.002031699,1.019494324
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py,120,_take_nd_ndarray,481,481,1.009411735,1.017184818
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,70,<lambda>,24,24,0.009729967,0.51268992
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,11688,sum,384,384,0.0018570930000000002,0.49386685700000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,12563,sum,384,384,0.001124226,0.49013643
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,12524,_min_count_stat_function,384,384,0.003963047,0.489012204
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,11462,_reduce,384,384,0.032444186,0.48355512500000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,56,<lambda>,24,24,8.558900000000001e-05,0.442661744
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,1002,toarray,24,24,0.000283844,0.442572295
+~,0,<built-in method scipy.sparse._sparsetools.csr_todense>,24,24,0.43783178,0.43783178
+~,0,<built-in method scipy.sparse._sparsetools.csr_column_index1>,32,32,0.411726968,0.411726968
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1502,reduce,384,384,0.00281824,0.406781865
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/preprocessing/_utils.py,33,_get_mean_var,32,32,0.0010097790000000001,0.38088936700000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/preprocessing/_utils.py,47,sparse_mean_variance_axis,32,32,0.37896555400000004,0.37986155800000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,400,reduce,384,384,0.001505264,0.35663905100000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,11485,blk_func,384,384,0.001553906,0.349660028
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,76,_f,384,384,0.002766676,0.347956776
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,907,wrapper,1,1,7.620000000000001e-06,0.346301699
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_utils/__init__.py,781,_check_nonnegative_integers_in_mem,1,1,0.34418539200000003,0.346088532
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,389,new_func,384,384,0.0014261,0.34099152800000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,455,newfunc,384,384,0.002819915,0.339565428
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,604,nansum,384,384,0.002177299,0.336745513
+~,0,<method 'reduce' of 'numpy.ufunc' objects>,3834,3834,0.20887840600000002,0.20887840600000002
+~,0,<method 'sum' of 'numpy.ndarray' objects>,769,769,0.001501251,0.186625845
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_methods.py,47,_sum,769,769,0.000483471,0.185124594
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,253,_get_values,384,384,0.0017812840000000002,0.13075942200000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,209,_maybe_get_mask,384,384,0.000722732,0.115202417
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,101,isna,439,439,0.000701319,0.11483969100000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,184,_isna,439,439,0.001549145,0.114138372
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,1499,_maybe_null_out,384,384,0.011227588,0.11227845900000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,261,_isna_array,390,390,0.110143629,0.111085137
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,550,_get_sliceXslice,24,24,9.944700000000001e-05,0.062008343
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,706,_get_submatrix,24,24,0.000517552,0.061901166
+~,0,<built-in method scipy.sparse._sparsetools.get_csr_submatrix>,24,24,0.056809787,0.056809787
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,53,_wrapfunc,193,193,0.000324992,0.050671543000000006
+~,0,<method 'argsort' of 'numpy.ndarray' objects>,71,71,0.049229941000000006,0.049229941000000006
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1025,argsort,64,64,0.000249734,0.048660427000000006
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,475,__new__,407,407,0.00907878,0.047641469000000006
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4282,__setitem__,80,80,0.00059241,0.040267058
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,99,multipletests,16,16,0.0020141210000000002,0.034527187
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4525,_set_item,80,80,0.00022295800000000002,0.031915235
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,517,sanitize_array,500,500,0.00552505,0.030591058
+~,0,<built-in method builtins.isinstance>,56534,56565,0.018645441000000002,0.030300171
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,98,__init__,1,1,7.460000000000001e-05,0.026544022
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,2557,to_records,5,5,0.00044984100000000003,0.025976372
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,35,_select_top_n,16,16,0.001200148,0.025834496000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4492,_set_item_mgr,80,80,0.000771429,0.023133514
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,1025,eliminate_zeros,1,1,1.394e-05,0.022055433000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,3994,_ixs,465,465,0.0031861560000000003,0.022044274000000003
+~,0,<built-in method scipy.sparse._sparsetools.csr_eliminate_zeros>,1,1,0.021993194,0.021993194
+~,0,<method 'any' of 'numpy.ndarray' objects>,1591,1591,0.002038886,0.021502425000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1366,insert,79,79,0.001014422,0.019933689
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1033,_getitem_lowerdim,470,470,0.002669149,0.019718309
+<frozen importlib._bootstrap>,1349,_find_and_load,1,25,0.00013517,0.019682811
+<frozen importlib._bootstrap>,1304,_find_and_load_unlocked,1,25,0.00012049800000000001,0.019615021
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_methods.py,55,_any,1591,1591,0.0010550540000000001,0.019463539000000002
+<frozen importlib._bootstrap>,480,_call_with_frames_removed,3,51,3.0050000000000002e-05,0.018746716
+<frozen importlib._bootstrap>,911,_load_unlocked,2,23,7.1739e-05,0.017993117
+<frozen importlib._bootstrap_external>,993,exec_module,2,23,5.3490000000000005e-05,0.017912778
+~,0,<built-in method builtins.exec>,2,23,6.735000000000001e-05,0.016787576000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,6306,__getattr__,944,944,0.0029199760000000003,0.015393228
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,97,is_bool_indexer,2204,2204,0.003031937,0.015113848000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/records.py,588,fromarrays,5,5,0.004008737,0.014602460000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3954,insert,79,79,0.001304929,0.013171546000000001
+~,0,<built-in method builtins.__import__>,2,4,8.67e-06,0.013065716000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,1148,take,384,384,0.004479983,0.013000681
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,123,maybe_convert_platform,384,384,0.006312782,0.012726816
+~,0,<built-in method __new__ of type object at 0x152820bf9720>,2592,2592,0.011892749000000001,0.011910329
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5449,_can_hold_identifiers_and_holds_name,934,934,0.0020361240000000003,0.01151918
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/generic.py,42,_instancecheck,11613,11613,0.00473334,0.011124744
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1575,_validate_key,1327,1327,0.0010601410000000001,0.011099729000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,958,_validate_tuple_indexer,469,469,0.0015616690000000001,0.010904844
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py,2216,sf,16,16,0.00224018,0.010834927000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4073,__getitem__,88,88,0.00031220200000000003,0.010724868
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,342,_from_mgr,1241,1241,0.00241049,0.010712268
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/records.py,418,__new__,5,5,7.78e-06,0.010439507
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexers/utils.py,239,maybe_convert_indices,391,391,0.0066236030000000005,0.010342997000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,30,__init__,56,56,0.001016992,0.010061483000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4168,_getitem_multilevel,6,6,4.3190000000000005e-05,0.009550949000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/__init__.py,1,<module>,1,1,3.4600000000000003e-06,0.00953241
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,6258,__finalize__,1268,1268,0.007166685000000001,0.009357027
+~,0,<built-in method builtins.len>,15792,20941,0.006856083000000001,0.009237961000000001
+<frozen importlib._bootstrap_external>,1066,get_code,23,23,0.000186194,0.009099294
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,663,_constructor_from_mgr,773,773,0.0013532750000000001,0.009040977
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2668,check_bool_indexer,391,391,0.000777621,0.009014320000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,325,fdrcorrection,16,16,0.000983596,0.008718762
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/__init__.py,1,<module>,1,1,8.09e-06,0.008335869000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1094,_getitem_nested_tuple,5,5,4.0989000000000003e-05,0.008273820000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,698,__init__,49,49,0.001029334,0.00827281
+~,0,<built-in method builtins.any>,2459,2459,0.002886758,0.008174228
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,281,__init__,1298,1298,0.0070774570000000005,0.008150022
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,287,get_dtypes,384,384,0.0014442020000000001,0.007804101000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2320,is_unique,83,83,0.000566753,0.007779463
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,727,_slice_take_blocks_ax0,7,7,0.0005786690000000001,0.007441291
+<frozen importlib._bootstrap>,1240,_find_spec,24,24,0.000200074,0.007412481
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,139,is_object_dtype,1427,1427,0.002246306,0.007269046
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,1,<module>,1,1,2.226e-05,0.0072491560000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1194,_engine,80,80,0.0043060450000000005,0.007115832000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5385,__getitem__,676,676,0.006493072000000001,0.007092503000000001
+<frozen importlib._bootstrap_external>,1524,find_spec,24,24,2.1588e-05,0.007025601
+<frozen importlib._bootstrap_external>,1495,_get_spec,24,24,5.6109e-05,0.007004013000000001
+<frozen importlib._bootstrap_external>,1187,get_data,23,23,7.1789e-05,0.006817967
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/tools.py,1,<module>,1,1,1.4679000000000001e-05,0.0067762840000000005
+<frozen importlib._bootstrap_external>,1597,find_spec,28,28,0.000259937,0.006728645
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1200,is_bool_dtype,1605,1605,0.002499704,0.006723176000000001
+~,0,<method 'nonzero' of 'numpy.ndarray' objects>,520,520,0.006557844,0.006557844
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/generic.py,37,_check,11613,11613,0.00411476,0.0063847850000000005
+~,0,<built-in method builtins.max>,200,200,0.006121666,0.0061708660000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,682,_constructor_sliced_from_mgr,465,465,0.000972093,0.005997563
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,650,_simple_new,1170,1170,0.004216821,0.005756064
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/_knockoff.py,1,<module>,1,1,8.31e-06,0.00568103
+~,0,<built-in method numpy.zeros>,78,78,0.005584157,0.005584157
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1166,maybe_infer_to_datetimelike,429,429,0.003874344,0.005535488000000001
+<frozen importlib._bootstrap_external>,140,_path_stat,99,99,4.235e-05,0.0055290650000000005
+~,0,<built-in method posix.stat>,99,99,0.0054867150000000005,0.0054867150000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,977,fast_xs,384,384,0.003059743,0.005486052
+~,0,<built-in method numpy.empty>,1968,1968,0.0052729100000000004,0.0052729100000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py,436,_sf,16,16,1.221e-05,0.005255065000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py,382,_norm_sf,16,16,0.000172577,0.005242855
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,5369,insert,177,177,0.002376998,0.005211586000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,5264,_sanitize_column,80,80,0.00040656400000000005,0.005194516000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py,564,_take_preprocess_indexer_and_fill_value,481,481,0.0006056670000000001,0.005159534
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,274,full,835,835,0.0033851320000000003,0.005136019
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,1525,_get_index_dtype,88,88,0.000894832,0.005118968000000001
+~,0,<method 'copy' of 'numpy.ndarray' objects>,852,852,0.005084458,0.005084458
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py,370,_norm_cdf,16,16,0.005070278,0.005070278
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,538,is_string_dtype,953,953,0.0009724450000000001,0.004958606
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2322,any,401,401,0.0011097700000000002,0.004930783
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3001,get_loc,172,172,0.0022625830000000003,0.004882027000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexers/utils.py,419,check_array_indexer,391,391,0.0019160260000000001,0.004766149
+~,0,<built-in method numpy.asarray>,3227,3310,0.002366965,0.004749042
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,276,make_block,384,384,0.0016526090000000002,0.004707729
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,237,ndarray_to_mgr,48,48,0.001192196,0.004594286
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2801,check_dict_or_set_indexers,954,954,0.0016509950000000002,0.004553748000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,550,maybe_promote,401,401,0.004321832,0.004550057000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1444,_is_dtype_type,1480,1480,0.002068209,0.004481639
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,1512,_process_toarray_args,24,24,5.0910000000000006e-05,0.004452432
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,326,__new__,91,91,0.00047436500000000003,0.004428222
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/data.py,1,<module>,1,1,1.5380000000000002e-05,0.004409821
+~,0,<built-in method _io.open_code>,23,23,0.004165587,0.004165587
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,71,_wrapreduction,419,419,0.0018586470000000002,0.004087838
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2789,new_block,774,774,0.002370969,0.003976498
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,264,get_index_dtype,88,88,0.0028712570000000003,0.003927692
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1385,_is_dtype,980,980,0.0008328490000000001,0.003855541
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,6323,__setattr__,1810,1810,0.0036913460000000003,0.0038497350000000004
+~,0,<built-in method builtins.getattr>,15195,15195,0.0036184660000000003,0.0038440020000000004
+~,0,<method 'take' of 'numpy.ndarray' objects>,420,420,0.0038143490000000003,0.0038143490000000003
+<frozen importlib._bootstrap_external>,150,_path_is_mode_type,43,43,3.7468e-05,0.00370556
+<frozen importlib._bootstrap_external>,159,_path_isfile,38,38,2.5849000000000003e-05,0.0036971290000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,589,_get_axis,2231,2231,0.003026445,0.003625796
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1339,__contains__,86,86,0.000260856,0.0034984150000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5564,equals,387,387,0.0008256120000000001,0.003486555
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,294,make_block_same_class,467,467,0.003303134,0.003303134
+~,0,<built-in method numpy.array>,944,944,0.0032579970000000003,0.003302887
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,981,__array__,467,467,0.0012339990000000002,0.003167248
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,967,from_blocks,774,774,0.0028634040000000004,0.0030890310000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,79,<genexpr>,1920,1920,0.001380947,0.003069341
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,371,__init__,4,4,8.3569e-05,0.002845545
+~,0,<method 'max' of 'numpy.ndarray' objects>,465,465,0.000570548,0.002845279
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,166,check_format,56,56,0.0017488260000000002,0.0027895840000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1591,construct_1d_object_array_from_listlike,384,384,0.001488621,0.0027517220000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,7754,maybe_extract_name,417,417,0.000756866,0.0027443510000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/__init__.py,1,<module>,1,1,1.415e-05,0.0027028380000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,82,shape,429,429,0.001307872,0.002634017
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,7011,insert,19,19,0.000224044,0.0025671400000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1653,_is_scalar_access,469,469,0.001568285,0.002551386
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,975,_is_nested_tuple_indexer,470,470,0.000873608,0.002508712
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_utils/__init__.py,445,sanitize_anndata,1,1,1.339e-05,0.002477691
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,1162,strings_to_categoricals,1,1,0.00019776600000000002,0.0024643010000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_index.py,298,_validate_indices,56,56,0.001152666,0.002394442
+~,0,<method '__exit__' of '_io._IOBase' objects>,23,23,0.002336065,0.002336065
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,574,condition,953,953,0.001694724,0.0022995140000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_methods.py,39,_amax,465,465,0.000284327,0.0022747310000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,1393,moveaxis,177,177,0.000704579,0.002208881
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1668,_validate_integer,544,544,0.0006864670000000001,0.002175662
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1409,_get_dtype,2585,2585,0.000973979,0.0019091140000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,675,_with_infer,22,22,0.00020166700000000002,0.0018782710000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2747,get_block_type,903,903,0.0012587310000000001,0.001874044
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4401,_set_is_copy,778,778,0.000869355,0.0018235500000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,904,_set_levels,91,91,0.00046469100000000004,0.0018124740000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,180,blknos,935,935,0.001369851,0.001772923
+~,0,<built-in method builtins.hasattr>,6353,6353,0.001735706,0.0017433160000000002
+~,0,<method 'min' of 'numpy.ndarray' objects>,385,385,0.000380753,0.001723263
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,72,check,1536,1536,0.001049864,0.0016883940000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,610,factorize,3,3,3.3189000000000004e-05,0.0016755440000000002
+<frozen importlib._bootstrap>,1390,_handle_fromlist,12,12,1.5828e-05,0.0016012040000000002
+~,0,<method 'astype' of 'numpy.ndarray' objects>,595,595,0.0015931830000000002,0.0015931830000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,774,_view,355,355,0.000424386,0.001588364
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,999,__len__,2808,2808,0.000951552,0.001582187
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_utils/__init__.py,801,select_groups,1,1,0.000144088,0.001565895
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,1917,place,48,48,2.5228000000000003e-05,0.001555118
+~,0,<built-in method numpy.core._multiarray_umath._place>,48,48,0.0015298900000000001,0.0015298900000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1086,_set_codes,91,91,0.000331588,0.001518292
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4619,_box_col_values,81,81,0.000181117,0.0015052420000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1431,_insert_update_blklocs_and_blknos,79,79,0.00031254700000000004,0.00149566
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,324,_get_dtype_max,384,384,0.001495079,0.001495079
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,3784,get_loc,477,477,0.000801065,0.001488362
+<frozen importlib._bootstrap_external>,755,_compile_bytecode,23,23,0.000147335,0.0014828880000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,137,_codes_to_ints,204,204,0.000782125,0.00146775
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2776,new_block_2d,128,128,0.000679304,0.0014583780000000002
+~,0,<built-in method builtins.all>,1041,1041,0.000702646,0.001408734
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_methods.py,43,_amin,385,385,0.000179686,0.00134251
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,84,<genexpr>,1283,1283,0.000404327,0.0013261450000000001
+~,0,<built-in method marshal.loads>,23,23,0.0013194130000000002,0.0013194130000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,779,argpartition,16,16,3.286e-05,0.0012868
+~,0,<built-in method builtins.sum>,79,79,0.00043540100000000003,0.00128154
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,531,is_string_or_object_np_dtype,1343,1343,0.001277675,0.0012809850000000001
+~,0,<built-in method builtins.issubclass>,4627,4627,0.001213474,0.001231204
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,1452,safe_sort,3,3,5.2509e-05,0.001227831
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1182,<genexpr>,1410,1410,0.000764007,0.00122458
+~,0,<method 'argpartition' of 'numpy.ndarray' objects>,16,16,0.0012170430000000001,0.0012170430000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,845,levels,86,86,0.000313357,0.001160648
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,834,_values,479,479,0.00034319,0.001152857
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,5563,append,158,158,0.000663409,0.001126325
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,145,_get_option,55,55,0.000212575,0.001123344
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,1330,normalize_axis_tuple,354,354,0.0008693730000000001,0.001121248
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,925,<genexpr>,273,273,0.00019164600000000001,0.001110365
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,670,_info_axis,1093,1093,0.0005971630000000001,0.001098561
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2774,is_label_like,930,930,0.0005055060000000001,0.001085425
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,372,apply_if_callable,1495,1495,0.000544103,0.001076027
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/flags.py,51,__init__,1298,1298,0.0010725650000000002,0.0010725650000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1103,<genexpr>,273,273,0.00020944800000000002,0.0010653770000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,912,__len__,1749,1749,0.0006193770000000001,0.001040219
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/__init__.py,34,using_copy_on_write,1811,1811,0.001037785,0.001037785
+~,0,<method 'accumulate' of 'numpy.ufunc' objects>,16,16,0.001027904,0.001027904
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,936,_expand_ellipsis,470,470,0.000431853,0.00102603
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/flags.py,87,allows_duplicate_labels,1268,1268,0.000994277,0.000994277
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,1118,prune,57,57,0.00046091100000000005,0.0009578880000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,392,__init__,7,8,0.000118499,0.000953595
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/compat/numpy/function.py,413,validate_func,384,384,0.000801547,0.000948645
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,162,iloc,1242,1242,0.000933331,0.000933331
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,1652,__len__,464,464,0.00039667,0.0009265740000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1398,_getitem_axis,3,3,1.9030000000000002e-05,0.000923016
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,541,<genexpr>,768,768,0.0008430250000000001,0.0009183040000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,216,new_meth,1,1,5.29e-06,0.0009151150000000001
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,133,filterwarnings,80,80,0.000283656,0.000910815
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,546,from_tuples,1,1,2.9040000000000003e-05,0.0009098250000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,106,_ensure_data,27,27,0.000201346,0.000897806
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,792,is_,393,393,0.000589125,0.0008947120000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,475,from_arrays,1,1,1.1439e-05,0.000875436
+~,0,<method 'reshape' of 'numpy.ndarray' objects>,464,464,0.000873458,0.000873458
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4596,_ensure_valid_index,80,80,8.794400000000001e-05,0.000868302
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1421,_insert_update_mgr_locs,79,79,0.000390008,0.000854681
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,783,_rename,173,173,9.5239e-05,0.000854241
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,125,<lambda>,1451,1451,0.000438348,0.000847347
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1411,<genexpr>,3318,3318,0.0007812390000000001,0.0008461390000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,693,_sanitize_ndim,498,498,0.000566906,0.000834671
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,332,array,768,768,0.00043681000000000004,0.0008266430000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/compat/__init__.py,1,<module>,1,1,7.99e-06,0.0008255770000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexers/utils.py,62,is_list_like_indexer,932,932,0.0007452110000000001,0.00081035
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2023,internal_values,479,479,0.000719297,0.000809667
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,3089,factorize_from_iterables,1,1,8.65e-06,0.0007972480000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,832,_reset_identity,1312,1312,0.000795325,0.000795325
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,3110,<genexpr>,3,3,5.2e-06,0.0007884280000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,3046,factorize_from_iterable,2,2,1.686e-05,0.0007832280000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,927,value_counts,1,1,5.850000000000001e-06,0.0007817070000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/validation/__init__.py,1,<module>,1,1,6.6700000000000005e-06,0.0007778170000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,4139,_coerce_indexer_frozen,182,182,0.000349787,0.00077598
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,862,value_counts_internal,1,1,3.413e-05,0.000775857
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,216,is_extension,488,488,0.0007649680000000001,0.0007649680000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1341,is_ea_or_datetimelike_dtype,814,814,0.000566513,0.00076345
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,982,<genexpr>,1410,1410,0.0005167160000000001,0.0007617
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,575,_get_axis_number,3033,3033,0.000757809,0.000757809
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/summary2.py,1,<module>,1,1,1.7590000000000003e-05,0.000756348
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,220,__init__,14,14,1.1108000000000001e-05,0.0007558970000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,444,check_shape,56,56,0.00044195700000000004,0.000755012
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/getlimits.py,685,__init__,176,176,0.0007535020000000001,0.0007535020000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/inference.py,273,is_dict_like,160,160,0.000368993,0.000749417
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,373,_finalize,14,14,1.679e-05,0.000744789
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,311,is_null_slice,859,859,0.000580723,0.0007287530000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,550,validate_categories,7,7,3.7269000000000005e-05,0.0007232790000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py,325,_get_take_nd_function,481,481,0.0006892570000000001,0.0007153960000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,5505,isin,1,1,1.79e-05,0.000706049
+<frozen importlib._bootstrap_external>,1648,_fill_cache,5,5,2.292e-05,0.0006999490000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/compat/pandas.py,1,<module>,1,1,5.123e-05,0.000698719
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,592,_ensure_array,407,407,0.0006920990000000001,0.0006920990000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1606,pandas_dtype,402,402,0.000345235,0.000685342
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,136,ones,24,24,0.000589538,0.000673496
+~,0,<built-in method posix.listdir>,5,5,0.0006713190000000001,0.0006713190000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1031,iget,81,81,0.000465281,0.0006647080000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numba/np/ufunc/parallel.py,629,get_num_threads,32,32,0.000293556,0.000663988
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py,612,argsreduce,16,16,0.000141538,0.0006625400000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,1319,iget,465,465,0.000661151,0.000661151
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/inference.py,334,is_hashable,707,707,0.000430446,0.000657063
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2808,<genexpr>,1413,1413,0.00042244600000000004,0.0006428730000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,123,classes,1451,1451,0.00064114,0.00064114
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/inference.py,195,is_array_like,790,790,0.00048197200000000005,0.000628349
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,481,ensure_wrapped_if_datetimelike,544,544,0.000524879,0.0006013980000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,423,dict_to_mgr,1,1,3.8010000000000004e-05,0.000596121
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,843,_engine,23,23,0.000178137,0.0005910690000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2114,create_block_manager_from_blocks,48,48,0.000301945,0.00058677
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py,1044,_open_support_mask,16,16,0.000345574,0.000578181
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1366,_getitem_tuple,1,1,1.32e-05,0.0005750610000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,3827,get_indexer,2,2,3.2018000000000004e-05,0.000573811
+<frozen importlib._bootstrap>,806,module_from_spec,23,23,4.155e-05,0.000570844
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,993,_validate_key_length,934,934,0.000427526,0.000568809
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,42,_ecdf,16,16,0.000409281,0.000566709
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2512,cumsum,80,80,9.490800000000001e-05,0.000566229
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,416,extract_array,534,534,0.000483801,0.0005657370000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/foreign.py,1,<module>,1,1,3.5500000000000003e-06,0.000562001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,457,isin,1,2,0.00012483900000000002,0.000559811
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_data.py,21,__init__,56,56,0.000164079,0.000555664
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/util/_validators.py,226,validate_bool_kwarg,387,387,0.0005475170000000001,0.0005475170000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/_lib/_sparse.py,10,issparse,59,59,6.3397e-05,0.00054445
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,127,_get_single_key,55,55,0.000168457,0.000537602
+<frozen abc>,117,__instancecheck__,221,221,0.00012184000000000001,0.000536605
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2718,maybe_coerce_values,134,134,0.000306443,0.000532089
+<frozen importlib._bootstrap>,416,__enter__,25,25,2.8610000000000002e-05,0.000530124
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,742,_get_axes,48,48,0.000108089,0.000528742
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,566,_construct_axes_dict,24,24,0.000238819,0.000525932
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2612,isin,1,1,3.4509000000000005e-05,0.0005256820000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1666,<genexpr>,938,938,0.0005223280000000001,0.0005223280000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,12617,values,24,24,5.0480000000000005e-05,0.0005023790000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2817,<genexpr>,1413,1413,0.000343294,0.000500381
+<frozen importlib._bootstrap>,733,_init_module_attrs,23,23,0.000100678,0.0004966440000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1593,_set_names,90,90,0.00031197500000000003,0.0004909420000000001
+~,0,<built-in method builtins.__build_class__>,14,14,0.000221916,0.00048533200000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/common.py,62,new_method,17,17,2.659e-05,0.000479242
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,732,_sanitize_str_dtypes,498,498,0.000367636,0.000474426
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,115,reindex_axis,1,1,5.9e-06,0.000468022
+<frozen importlib._bootstrap_external>,486,cache_from_source,46,46,0.000147946,0.000466249
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,34,log,4,4,4.084e-05,0.00045801200000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1181,<genexpr>,1410,1410,0.00045752700000000005,0.00045752700000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1652,as_array,24,24,0.000301183,0.000451899
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,610,_dtype_to_subclass,407,407,0.000326548,0.000451634
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,95,take,16,16,2.1289000000000002e-05,0.00044529000000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,974,coerce_indexer_dtype,187,187,0.00027214700000000004,0.00044494200000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2330,_fast_count_smallints,79,79,0.000322964,0.00043985300000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5335,__contains__,260,260,0.000364485,0.000436905
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,831,__len__,127,127,0.00012108500000000001,0.000434659
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,408,flags,2536,2536,0.000433242,0.000433242
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,595,_get_block_manager_axis,391,391,0.000359735,0.00042607400000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,272,info,2,2,1.6550000000000002e-05,0.000423983
+~,0,<built-in method builtins.callable>,1882,1882,0.000421466,0.000421466
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,1034,axes,475,475,0.00042145500000000005,0.00042145500000000005
+~,0,<built-in method _abc._abc_instancecheck>,221,221,0.000346166,0.00041476500000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,64,info,2,2,6.02e-06,0.000400823
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,138,__init__,56,56,0.000303279,0.000391585
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,1809,value_counts,1,1,5.5609e-05,0.000391413
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,291,arrays,768,768,0.000389833,0.000389833
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/api.py,386,default_index,50,50,0.000149597,0.000388793
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2202,__getitem__,7,7,7.4529e-05,0.000388272
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1768,ravel,158,158,0.00016268900000000001,0.000384606
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,376,dtype,3183,3183,0.000376337,0.000376337
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,635,_get_root,55,55,0.00029191700000000004,0.00037316700000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,548,factorize_array,3,3,0.000265656,0.000372804
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1166,_check_deprecated_callable_usage,386,386,0.00031053,0.00037061
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numba/np/ufunc/parallel.py,381,_launch_threads,32,32,0.00019726700000000002,0.000370432
+<frozen importlib._bootstrap>,304,acquire,25,25,0.000118528,0.00036335500000000005
+<frozen importlib._bootstrap_external>,126,_path_join,168,168,0.00021760600000000002,0.000363181
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1594,log,4,4,1.8540000000000002e-05,0.000360305
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,685,_sanitize_non_ordered,384,384,0.00025318700000000004,0.00035172700000000003
+~,0,<method 'cumsum' of 'numpy.ndarray' objects>,80,80,0.00034801300000000004,0.00034801300000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,699,ndim,1272,1272,0.00034125100000000004,0.00034125100000000004
+<frozen importlib._bootstrap>,632,cached,46,46,1.9710000000000003e-05,0.00033577600000000003
+~,0,<method 'get' of 'dict' objects>,745,745,0.000333802,0.000333802
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,255,fill_value,106,106,0.000145505,0.00033261200000000003
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,184,_add_filter,83,83,0.00015337800000000002,0.00033195400000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,123,_reset_cache,272,272,0.000197455,0.000327824
+~,0,<built-in method numpy.arange>,36,36,0.000327397,0.000327397
+~,0,<method 'extend' of 'list' objects>,527,527,0.00031526300000000003,0.00032154300000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,152,cast_scalar_indexer,662,662,0.000320054,0.000320054
+<frozen importlib._bootstrap>,645,parent,127,127,0.000200907,0.000318243
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1660,_log,2,2,1.1089e-05,0.00031711500000000003
+/opt/modules/Python/3.12.13/lib/python3.12/contextlib.py,446,__exit__,470,470,0.000247985,0.000316934
+<frozen importlib._bootstrap_external>,615,_get_cached,23,23,3.5390000000000005e-05,0.00031606600000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,4330,reindex,1,1,9.54e-06,0.000312775
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,231,asarray_tuplesafe,23,23,0.000137147,0.00030660400000000003
+~,0,<built-in method builtins.hash>,1071,1071,0.000306197,0.000306197
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,7659,ensure_index,257,257,0.00011256800000000001,0.000300735
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2884,ensure_block_shape,80,80,0.00012512,0.00029952600000000005
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,365,nnz,228,228,0.000113097,0.000298254
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3327,_get_level_indexer,10,10,0.000100857,0.000296445
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/frozen.py,76,__getitem__,149,149,0.00022060500000000002,0.000296374
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,366,attrs,1268,1268,0.000296318,0.000296318
+~,0,<method 'append' of 'list' objects>,887,887,0.000290686,0.000290686
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6174,get_indexer_for,1,1,9.83e-06,0.000289106
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1483,_set_as_cached,81,81,0.000101489,0.00028507200000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2190,__contains__,16,16,3.319e-05,0.000284677
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,405,_check_values_indices_shape_match,48,48,7.3348e-05,0.00028277200000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/inference.py,300,<genexpr>,480,480,0.000191757,0.00028162600000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2254,take,5,5,3.4269e-05,0.000274466
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1801,_consolidate_inplace,49,49,7.1178e-05,0.000272635
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2421,all,16,16,2.1130000000000003e-05,0.000271616
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,4106,maybe_droplevels,5,5,1.2460000000000001e-05,0.000261686
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/compat/numpy/function.py,64,__call__,781,781,0.00025733500000000003,0.00025733500000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,126,func,16,16,5.8429000000000006e-05,0.000256445
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,195,contains,18,18,0.000182408,0.000256076
+/opt/modules/Python/3.12.13/lib/python3.12/re/__init__.py,226,compile,79,79,4.333e-05,0.000255726
+~,0,<method 'values' of 'dict' objects>,384,384,0.000252473,0.000252473
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1047,nlevels,591,591,0.00017674700000000002,0.000251205
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2166,_drop_level_numbers,5,5,6.4467e-05,0.00024792600000000004
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,246,items,464,464,0.000247576,0.000247576
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1153,take,7,7,5.8529e-05,0.000246167
+~,0,<method 'items' of 'dict' objects>,423,423,0.00024532600000000003,0.00024532600000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,421,_get_indexer,1,1,0.00021282700000000001,0.00024501600000000003
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,932,__init__,823,823,0.00024161700000000001,0.00024161700000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,201,_simple_new,51,51,0.00013993800000000001,0.000241606
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,1595,_array_str_implementation,1,1,6.380000000000001e-06,0.00023915600000000003
+~,0,<method 'read' of '_io.BufferedReader' objects>,23,23,0.000238136,0.000238136
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,561,array2string,1,1,1.2460000000000001e-05,0.00023277600000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,3706,sort_values,1,1,2.725e-05,0.00022931600000000003
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2814,__new__,1,1,4.2539e-05,0.000226146
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,635,is_integer_dtype,26,26,9.0659e-05,0.000225708
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2757,_check_indexing_error,172,172,0.00012534700000000002,0.00021968600000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,1131,take,8,8,2.033e-05,0.000218697
+<frozen importlib._bootstrap_external>,1473,_path_importer_cache,29,29,2.419e-05,0.000213739
+/opt/modules/Python/3.12.13/lib/python3.12/re/__init__.py,280,_compile,79,79,0.000135298,0.000212396
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,350,isintlike,64,64,0.000173499,0.00021157900000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/tableformatting.py,1,<module>,1,1,1.9029e-05,0.00020839600000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/_test_runner.py,9,__init__,4,4,3.4699e-05,0.00020807800000000002
+<frozen importlib._bootstrap_external>,1206,path_stats,23,23,1.773e-05,0.00020630800000000002
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,821,dispatch,1,1,8.550000000000001e-06,0.00020554700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,506,wrapper,1,1,1.1859000000000001e-05,0.000204896
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,196,blklocs,550,550,0.00020241400000000002,0.00020241400000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1783,is_consolidated,49,49,8.299900000000001e-05,0.00020145700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,942,<genexpr>,1410,1410,0.00019655600000000002,0.00019655600000000002
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,777,_find_impl,1,1,8.84e-06,0.00019366700000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/flags.py,55,allows_duplicate_labels,1268,1268,0.000193308,0.000193308
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,676,_translate_key,55,55,0.000133907,0.000192296
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,523,_array2string,1,1,1.2280000000000001e-05,0.00019029700000000002
+<frozen importlib._bootstrap_external>,1460,_path_hooks,5,5,2.1210000000000002e-05,0.000189549
+/opt/modules/Python/3.12.13/lib/python3.12/copy.py,118,deepcopy,2,76,9.522e-05,0.000187777
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,118,_getnnz,228,228,0.000185157,0.000185157
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,744,dtype,494,494,0.00018431800000000002,0.00018431800000000002
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,735,_compose_mro,1,1,1.163e-05,0.000183697
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2824,hasnans,3,3,1.1410000000000001e-05,0.00018285800000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1856,__init__,476,476,0.000181969,0.000181969
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2795,_make_nmtuple,1,1,1.3699e-05,0.00018009700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/stride_tricks.py,480,broadcast_arrays,16,16,6.104e-05,0.000178826
+/opt/modules/Python/3.12.13/lib/python3.12/copy.py,217,_deepcopy_dict,2,2,2.4670000000000003e-05,0.000176128
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,484,__enter__,106,106,0.00015348800000000002,0.00017606700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1678,name,415,415,0.000171766,0.000171766
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py,122,<lambda>,1,1,1.52e-06,0.00017123800000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,472,<genexpr>,168,168,0.00012856,0.000168839
+<frozen importlib._bootstrap>,162,__enter__,25,25,3.6700000000000004e-05,0.000168567
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,690,_c3_mro,1,14,6.653e-05,0.000167908
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arraylike.py,46,__lt__,1,1,3.14e-06,0.000165398
+~,0,<method 'rpartition' of 'str' objects>,238,238,0.000164064,0.000164064
+<frozen importlib._bootstrap_external>,1592,_get_spec,23,23,4.3318e-05,0.000163288
+<frozen importlib._bootstrap_external>,132,_path_split,46,46,6.459900000000001e-05,0.000162819
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2187,cast,1387,1387,0.000162485,0.000162485
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,6129,_cmp_method,1,1,1.089e-05,0.000162258
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_ufunc_config.py,33,seterr,32,32,7.1679e-05,0.00016169800000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4424,_check_setitem_copy,81,81,9.274700000000001e-05,0.00016158600000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1272,is_1d_only_ea_dtype,179,179,0.000100878,0.00016109700000000002
+~,0,<method 'transpose' of 'numpy.ndarray' objects>,201,201,0.000160759,0.000160759
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4637,_get_item_cache,82,82,9.555800000000001e-05,0.000160547
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,415,count_nonzero,17,17,2.7188e-05,0.000159037
+/opt/modules/Python/3.12.13/lib/python3.12/collections/__init__.py,355,namedtuple,1,1,6.431e-05,0.00015830800000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6725,_maybe_cast_listlike_indexer,2,2,2.43e-06,0.000158218
+~,0,<built-in method builtins.sorted>,177,177,0.000157626,0.000157626
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1686,handle,2,2,7.1100000000000005e-06,0.000156538
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,673,na_value_for_dtype,108,108,0.000123019,0.00015450700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,568,require_length_match,85,85,4.7369e-05,0.00015439700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3900,_validate_fill_value,79,79,7.7008e-05,0.00015286800000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/records.py,435,__array_finalize__,85,85,6.752800000000001e-05,0.00015194700000000001
+/opt/modules/Python/3.12.13/lib/python3.12/contextlib.py,440,__init__,470,470,0.000150778,0.000150778
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1746,callHandlers,2,2,6.45e-06,0.000147698
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numba/core/serialize.py,30,_numba_unpickle,64,64,0.00014581700000000002,0.00014581700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,1080,copyto,859,859,0.00014483900000000001,0.00014483900000000001
+~,0,<method 'remove' of 'list' objects>,108,108,0.00014417800000000001,0.00014417800000000001
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,505,__exit__,106,106,0.000125265,0.000143905
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,755,_maybe_repeat,498,498,0.000123508,0.00014287700000000002
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1011,handle,2,2,7.080000000000001e-06,0.00014124800000000001
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,731,parent,4,4,1.273e-05,0.00013975900000000001
+~,0,<method 'indices' of 'slice' objects>,128,128,0.000138638,0.000138638
+<frozen importlib._bootstrap>,426,_get_module_lock,25,25,8.635000000000001e-05,0.000138159
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,514,_validate_dtype,4,4,6.08e-06,0.000137868
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,810,_set_axis,14,14,3.5559e-05,0.000136746
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,98,_shape_as_2d,194,194,0.000106217,0.000136496
+~,0,<built-in method numpy.asanyarray>,333,333,0.000134778,0.000134778
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_ufunc_config.py,430,__enter__,16,16,3.017e-05,0.00013446
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2811,_isnan,3,3,2.9e-06,0.00013095900000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5180,_get_engine_target,22,22,3.816e-05,0.000129498
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/_lib/_util.py,154,_prune_array,114,114,0.000128676,0.000128676
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1183,_maybe_disallow_fill,396,396,0.00012854900000000002,0.00012854900000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,617,_select_options,55,55,0.00012828900000000002,0.00012828900000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1590,_get_names,190,190,0.000128078,0.000128078
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1881,nonzero,17,17,1.478e-05,0.00012636800000000002
+~,0,<method 'ravel' of 'numpy.ndarray' objects>,206,206,0.000125258,0.000125258
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1148,emit,2,2,1.84e-05,0.00012480800000000002
+<frozen importlib._bootstrap>,124,setdefault,25,25,5.8939000000000006e-05,0.00012330700000000002
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,610,_init_dict,1,1,5.19e-06,0.000122438
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,840,__iter__,11,11,3.5128e-05,0.00012132700000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,112,getdtype,24,24,0.00012125900000000001,0.00012125900000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,305,_isna_string_dtype,5,5,0.00012089800000000001,0.00012089800000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1791,_consolidate_check,49,49,0.00011125900000000001,0.00011845800000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,780,_formatArray,1,1,6.1e-06,0.000117428
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1645,makeRecord,2,2,1.5439000000000002e-05,0.000115518
+<frozen importlib._bootstrap_external>,806,spec_from_file_location,23,23,6.822000000000001e-05,0.00011545
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,792,values,35,35,1.45e-05,0.00011525800000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/_monitor.py,56,get_instances,2,2,1.219e-05,0.000114888
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,5792,isna,1,1,1.7800000000000001e-06,0.000112819
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,789,recurser,1,17,5.0549e-05,0.000111328
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,8720,isna,1,1,1.94e-06,0.000111039
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,1320,_process_slice,48,48,5.9219000000000003e-05,0.00010957700000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/getlimits.py,696,min,88,88,0.00010801800000000001,0.00010801800000000001
+<frozen importlib._bootstrap>,420,__exit__,25,25,1.4229e-05,0.000107386
+/opt/modules/Python/3.12.13/lib/python3.12/multiprocessing/synchronize.py,94,__enter__,32,32,5.0228e-05,0.00010471700000000001
+<frozen importlib._bootstrap_external>,1689,path_hook_for_FileFinder,5,5,1.4210000000000001e-05,0.00010385900000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_data.py,24,dtype,80,80,0.00010115900000000001,0.00010115900000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/_mixins.py,157,take,2,2,1.075e-05,0.00010107900000000001
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2019,external_values,35,35,2.4339000000000002e-05,0.000100758
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,298,__init__,2,2,4.995e-05,0.000100079
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_index.py,470,_compatible_boolean_index,32,32,8.53e-05,9.9529e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/table.py,1,<module>,1,1,2.7490000000000003e-05,9.841900000000001e-05
+~,0,<built-in method _operator.index>,466,466,9.795700000000001e-05,9.795700000000001e-05
+~,0,<method 'insert' of 'list' objects>,260,260,9.774700000000001e-05,9.774700000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2619,__setitem__,1,1,9.92e-06,9.642900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,6222,_construct_result,1,1,5.850000000000001e-06,9.5599e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,728,is_valid_na_for_dtype,38,38,3.6429e-05,9.4639e-05
+<frozen importlib._bootstrap>,372,release,25,25,5.9378000000000006e-05,9.3157e-05
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,663,_c3_merge,14,14,8.1539e-05,9.3138e-05
+~,0,<method 'split' of 'str' objects>,78,78,9.297e-05,9.297e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2317,_any_dispatcher,401,401,9.272e-05,9.272e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/category.py,362,__contains__,2,2,6.480000000000001e-06,9.1938e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,262,_get_hashtable_algo,3,3,8.370000000000001e-06,9.189800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1959,_block,473,473,9.105e-05,9.105e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,372,isshape,56,56,7.162700000000001e-05,9.085600000000001e-05
+~,0,<built-in method numpy.core._multiarray_umath.normalize_axis_index>,354,354,9.0328e-05,9.0328e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,94,ndim,56,56,6.765900000000001e-05,8.980900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_ufunc_config.py,435,__exit__,16,16,3.1889e-05,8.929700000000001e-05
+~,0,<method 'rstrip' of 'str' objects>,384,384,8.926600000000001e-05,8.926600000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/base.py,549,find,3,3,4.093e-05,8.898900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1882,from_array,6,6,2.8250000000000002e-05,8.8359e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,551,drive,4,4,1.554e-05,8.807900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,236,set_axis,14,14,2.4200000000000002e-05,8.7137e-05
+<frozen abc>,121,__subclasscheck__,3,15,6.769000000000001e-06,8.6329e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,286,debug,2,2,1.5320000000000002e-05,8.5949e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_dtype.py,346,_name_get,16,16,5.0329000000000006e-05,8.5819e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,96,arrays_to_mgr,1,1,6.53e-06,8.558900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2486,swaplevel,1,1,1.0539e-05,8.5568e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1042,needs_i8_conversion,51,51,5.2510000000000004e-05,8.4818e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/records.py,441,__getattribute__,165,165,8.4419e-05,8.4419e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1165,is_float_dtype,24,24,4.5558e-05,8.4027e-05
+<frozen importlib._bootstrap_external>,84,_unpack_uint32,69,69,5.5266e-05,8.368600000000001e-05
+<frozen importlib._bootstrap_external>,670,_classify_pyc,23,23,4.1839000000000004e-05,8.364800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_csc.py,145,_swap,298,298,8.3447e-05,8.3447e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,95,copy,2,2,8.920000000000001e-06,8.3379e-05
+<frozen importlib._bootstrap_external>,703,_validate_timestamp_pyc,23,23,3.3529000000000004e-05,8.332600000000001e-05
+~,0,<built-in method builtins.eval>,1,1,8.238800000000001e-05,8.312800000000001e-05
+~,0,<built-in method _abc._abc_subclasscheck>,3,15,7.772000000000001e-05,8.2719e-05
+~,0,<method 'view' of 'numpy.ndarray' objects>,186,186,8.2539e-05,8.2539e-05
+~,0,<method 'join' of 'str' objects>,220,220,8.0479e-05,8.1369e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,765,categories,112,112,4.924e-05,8.126800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2530,__setitem__,1,1,1.04e-05,8.0269e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/getlimits.py,709,max,88,88,7.926600000000001e-05,7.926600000000001e-05
+~,0,<method 'clear' of 'dict' objects>,279,279,7.867e-05,7.867e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/category.py,203,__new__,1,1,6.68e-06,7.8039e-05
+/opt/modules/Python/3.12.13/lib/python3.12/enum.py,202,__get__,83,83,5.1209000000000004e-05,7.6648e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,317,apply,3,3,2.16e-05,7.6529e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,251,external_values,35,35,1.9749e-05,7.6419e-05
+~,0,<built-in method builtins.iter>,1,2,2.0100000000000002e-06,7.6319e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5154,_values,524,524,7.4826e-05,7.4826e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2181,__iter__,1,1,4.57e-06,7.4589e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,37,__init__,2,2,1.5469e-05,7.4459e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,586,update_dtype,4,4,1.285e-05,7.414800000000001e-05
+~,0,<method 'item' of 'numpy.ndarray' objects>,177,177,7.374000000000001e-05,7.374000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,315,step,388,388,7.3299e-05,7.3299e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,407,_load_parts,4,4,1.1370000000000001e-05,7.2539e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,3816,<genexpr>,185,185,4.6460000000000006e-05,7.112000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,6684,copy,1,1,7.610000000000001e-06,7.084800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/util/_validators.py,354,validate_ascending,1,1,3.1100000000000003e-06,7.064900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1082,codes,315,315,7.048900000000001e-05,7.048900000000001e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,63,__iter__,4,4,2.2780000000000002e-05,6.9819e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,1875,_internal_get_values,1,1,3.87e-06,6.9019e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,576,copy,2,2,1.269e-05,6.8509e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/accessor.py,95,_getter,35,35,1.6109e-05,6.825800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,187,_get_fill_value,384,384,6.791800000000001e-05,6.791800000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,70,debug,2,2,2.96e-06,6.616900000000001e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,988,format,2,2,4.32e-06,6.5679e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1434,_set_value,1,1,2.33e-06,6.5249e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,280,start,386,386,6.5188e-05,6.5188e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6436,_should_compare,2,2,9.090000000000001e-06,6.495e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/stride_tricks.py,416,_broadcast_shape,16,16,6.1658e-05,6.4818e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_matrix.py,65,get_shape,239,239,6.472e-05,6.472e-05
+<frozen zipimport>,64,__init__,5,5,1.728e-05,6.448e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/packaging/version.py,408,__init__,19,19,4.5069000000000005e-05,6.344900000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,86,_validate_set_axis,14,14,1.094e-05,6.2937e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1427,_set_values,1,1,8.730000000000001e-06,6.2919e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/logging.py,99,format,2,2,1.41e-05,6.1359e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2172,_unbox_scalar,16,16,3.6360000000000004e-05,6.117e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,452,_get_format_function,1,1,1.109e-05,6.0109e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,387,_parse_path,4,4,3.3350000000000004e-05,6.0069000000000004e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,120,update,2,2,8.49e-06,5.899e-05
+/opt/modules/Python/3.12.13/lib/python3.12/contextlib.py,443,__enter__,470,470,5.864e-05,5.864e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/config.py,649,_get_deprecated_option,55,55,5.8389000000000006e-05,5.8389000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,787,name,10,10,2.2340000000000003e-05,5.8080000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/sorting.py,369,nargsort,1,1,2.739e-05,5.7439000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,585,_ensure_2d,48,48,5.703e-05,5.703e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2900,external_values,35,35,3.13e-05,5.6670000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/compat/scipy.py,1,<module>,1,1,1.4729e-05,5.5989e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2021,_lexsort_depth,1,1,3.2000000000000003e-06,5.5709000000000005e-05
+~,0,<built-in method _operator.eq>,16,16,5.5468000000000005e-05,5.5468000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6718,_maybe_cast_indexer,477,477,5.4957e-05,5.4957e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3708,equals,5,5,8.570000000000001e-06,5.4589e-05
+~,0,<method '__enter__' of '_multiprocessing.SemLock' objects>,32,32,5.4489000000000006e-05,5.4489000000000006e-05
+/opt/modules/Python/3.12.13/lib/python3.12/multiprocessing/synchronize.py,97,__exit__,32,32,3.587e-05,5.4288000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_ufunc_config.py,132,geterr,32,32,4.9250000000000004e-05,5.3750000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,243,_from_values_or_dtype,4,4,1.5720000000000002e-05,5.3320000000000004e-05
+~,0,<built-in method _warnings._filters_mutated>,295,295,5.3309e-05,5.3309e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2950,_delegate_property_get,35,35,1.1340000000000002e-05,5.2149000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,421,lexsort,24,24,3.2540000000000004e-05,5.2100000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,4056,_lexsort_depth,1,1,1.798e-05,5.1739e-05
+<frozen importlib._bootstrap_external>,1571,__init__,5,5,2.02e-05,5.1639000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2140,create_block_manager_from_column_arrays,1,1,7.080000000000001e-06,5.0969000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/base.py,294,is_dtype,8,8,8.95e-06,5.079e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,280,_check_object_for_strings,3,3,3.8099e-05,5.0119000000000006e-05
+<frozen importlib._bootstrap_external>,134,<genexpr>,92,92,2.9610000000000003e-05,4.92e-05
+~,0,<built-in method builtins.min>,72,72,4.9097e-05,4.9097e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,2976,_get_loc_single_level_index,10,10,1.1900000000000001e-05,4.872e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/__init__.py,42,warn_copy_on_write,165,165,4.8660000000000005e-05,4.8660000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py,288,comparison_op,1,1,1.9639000000000003e-05,4.8649e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/compat/numpy.py,1,<module>,1,1,1.5890000000000002e-05,4.8519e-05
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,458,__init__,106,106,4.7690000000000006e-05,4.7690000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,710,dtype,42,42,1.4940000000000001e-05,4.7579e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5305,_validate_fill_value,19,19,3.1449e-05,4.7219e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,690,format,2,2,7.93e-06,4.5719e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/_mixins.py,78,method,1,1,3.27e-06,4.4890000000000006e-05
+<frozen importlib._bootstrap>,1226,__exit__,97,97,2.659e-05,4.4489e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4481,_iset_item_mgr,1,1,8.42e-06,4.4479000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,196,mgr_to_mgr,49,49,3.1319e-05,4.4439000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,753,_extendLine_pretty,16,16,1.593e-05,4.4339000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_base.py,385,format,56,56,4.4289e-05,4.4289e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/shape_base.py,23,atleast_1d,16,16,3.015e-05,4.3990000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2783,_is_multi,23,23,7.340000000000001e-06,4.2818e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,410,<lambda>,1,1,4.000000000000001e-06,4.2279e-05
+<frozen importlib._bootstrap>,1222,__enter__,97,97,2.559e-05,4.2139000000000004e-05
+<frozen importlib._bootstrap>,445,cb,24,24,2.5330000000000003e-05,4.1649e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,1639,__array__,1,1,2.61e-06,4.1620000000000005e-05
+<frozen importlib._bootstrap_external>,185,_path_abspath,28,28,1.1580000000000001e-05,4.139e-05
+<frozen importlib._bootstrap>,1128,find_spec,24,24,1.501e-05,4.134e-05
+<frozen importlib._bootstrap>,232,__init__,24,24,2.8780000000000002e-05,4.108e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py,611,_major_slice,32,32,4.0889e-05,4.0889e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2209,_form_blocks,1,1,1.8059e-05,4.0089e-05
+<frozen importlib._bootstrap>,74,__new__,25,25,2.7079000000000003e-05,3.9899000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,372,setitem,1,1,3.6000000000000003e-06,3.9449e-05
+<frozen importlib._bootstrap>,491,_verbose_message,166,166,3.9349000000000006e-05,3.9349000000000006e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,1223,__init__,1,1,1.3490000000000001e-05,3.8279000000000004e-05
+~,0,<function FrozenList.__getitem__ at 0x1528161007c0>,149,149,3.8140000000000004e-05,3.8140000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1581,validate_all_hashable,11,11,1.3680000000000001e-05,3.813e-05
+<frozen importlib._bootstrap_external>,164,_path_isdir,5,5,3.7300000000000003e-06,3.8010000000000004e-05
+~,0,<method 'update' of 'dict' objects>,28,28,3.7999e-05,3.7999e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,420,_from_parsed_parts,4,4,7.830000000000001e-06,3.7170000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexers/utils.py,187,validate_indices,1,1,8.09e-06,3.7099000000000005e-05
+~,0,<method 'startswith' of 'str' objects>,65,65,3.6440000000000003e-05,3.6440000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,153,concatenate,239,239,3.6280000000000005e-05,3.6280000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,667,_constructor_from_mgr,3,3,7.89e-06,3.62e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/accessor.py,220,__get__,1,1,5.330000000000001e-06,3.61e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,1157,__init__,8,8,1.408e-05,3.579e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/docstring_helpers.py,1,<module>,1,1,5.330000000000001e-06,3.5609000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_settings.py,57,level,4,4,1.3990000000000002e-05,3.5539e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,456,_engine_type,22,22,2.3499e-05,3.5489000000000005e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1085,iset,1,1,1.072e-05,3.5059000000000004e-05
+~,0,<method 'lower' of 'str' objects>,113,113,3.427e-05,3.427e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,27,__exit__,4,4,1.4319000000000001e-05,3.4269e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/_distutils_hack/__init__.py,101,find_spec,24,24,1.6459e-05,3.4139e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,5365,_insert_dispatcher,177,177,3.401e-05,3.401e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1611,findCaller,2,2,1.4170000000000002e-05,3.397e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/_config/__init__.py,55,using_string_dtype,99,99,3.396e-05,3.396e-05
+<frozen importlib._bootstrap_external>,647,_check_name_wrapper,23,23,3.0050000000000002e-05,3.33e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2012,dtype,42,42,3.0589e-05,3.2639000000000004e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/packaging/version.py,606,__lt__,15,15,1.866e-05,3.1870000000000005e-05
+~,0,<built-in method builtins.setattr>,32,32,3.169e-05,3.169e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/construction.py,766,_try_cast,3,3,9.54e-06,3.1689e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,737,name,15,15,1.0870000000000001e-05,3.117e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2938,__init__,1,1,1.1340000000000002e-05,3.0770000000000005e-05
+<frozen importlib._bootstrap>,82,remove,25,25,2.0320000000000002e-05,3.054e-05
+<frozen importlib._bootstrap_external>,180,_path_isabs,28,28,1.4690000000000002e-05,2.981e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,1389,_moveaxis_dispatcher,177,177,2.9678000000000003e-05,2.9678000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/packaging/version.py,110,parse,4,4,7.92e-06,2.9529e-05
+/opt/modules/Python/3.12.13/lib/python3.12/copy.py,191,_deepcopy_list,2,2,7.430000000000001e-06,2.9040000000000003e-05
+~,0,<method '__exit__' of '_thread.RLock' objects>,82,82,2.8979e-05,2.8979e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,674,formatMessage,2,2,1.74e-06,2.8440000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,3176,ndim,64,64,2.7980000000000003e-05,2.7980000000000003e-05
+~,0,<built-in method _imp.acquire_lock>,146,146,2.7939e-05,2.7939e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/openfile.py,1,<module>,1,1,6.95e-06,2.75e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,221,_can_consolidate,80,80,2.7260000000000003e-05,2.7260000000000003e-05
+~,0,<built-in method numpy.seterrobj>,32,32,2.68e-05,2.68e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,462,format,2,2,2.4900000000000003e-06,2.6700000000000002e-05
+~,0,<built-in method numpy.core._multiarray_umath.count_nonzero>,16,16,2.6680000000000002e-05,2.6680000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6461,_is_comparable_dtype,2,2,3.66e-06,2.6530000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,1131,putmask,24,24,2.6359000000000003e-05,2.6359000000000003e-05
+~,0,<built-in method _imp.release_lock>,146,146,2.6288000000000003e-05,2.6288000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py,287,_get_take_nd_function_cached,2,2,1.1889000000000001e-05,2.6139e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,488,copy,1,1,4.6400000000000005e-06,2.58e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/smpickle.py,1,<module>,1,1,4.87e-06,2.574e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,184,_reconstruct_data,6,6,8.750000000000001e-06,2.574e-05
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,311,_acquire_restore,1,1,2.0810000000000002e-05,2.568e-05
+~,0,<method 'disable' of '_lsprof.Profiler' objects>,1,1,2.5599e-05,2.5599e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/_test_runner.py,1,<module>,1,1,6.25e-06,2.5399000000000002e-05
+~,0,<method 'pop' of 'list' objects>,67,67,2.5370000000000003e-05,2.5370000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,503,can_cast,176,176,2.532e-05,2.532e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numerictypes.py,357,issubdtype,4,4,1.091e-05,2.5030000000000003e-05
+~,0,<method 'write' of '_io.TextIOWrapper' objects>,2,2,2.496e-05,2.496e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,494,dtype,139,139,2.4769000000000003e-05,2.4769000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1764,_ravel_dispatcher,158,158,2.4540000000000002e-05,2.4540000000000002e-05
+<frozen importlib._bootstrap>,79,__init__,25,25,2.4469000000000002e-05,2.4469000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2751,inferred_type,1,1,1.775e-05,2.445e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py,477,<genexpr>,168,168,2.432e-05,2.432e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,477,_format,2,2,1.0870000000000001e-05,2.421e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/validation/validation.py,1,<module>,1,1,8.220000000000001e-06,2.4180000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,983,<genexpr>,15,15,7.789000000000001e-06,2.4049000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,6480,any,1,1,5.939e-06,2.3909e-05
+<frozen importlib._bootstrap>,48,_new_module,23,23,2.39e-05,2.39e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1021,_argsort_dispatcher,64,64,2.3899000000000003e-05,2.3899000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/construction.py,596,_homogenize,1,1,3.7600000000000004e-06,2.389e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,659,_constructor,24,24,2.37e-05,2.37e-05
+<frozen importlib._bootstrap>,982,find_spec,24,24,1.073e-05,2.3699e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,241,is_single_block,29,29,1.9980000000000002e-05,2.36e-05
+~,0,<method 'rfind' of 'str' objects>,52,52,2.36e-05,2.36e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,380,with_segments,4,4,6.740000000000001e-06,2.341e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_dtype.py,330,_name_includes_bit_suffix,16,16,1.02e-05,2.307e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1790,isEnabledFor,4,4,1.58e-05,2.3e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1083,is_numeric_dtype,3,3,8.61e-06,2.269e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,5559,_append_dispatcher,158,158,2.2639e-05,2.2639e-05
+<frozen importlib._bootstrap>,173,__exit__,25,25,1.201e-05,2.2270000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,1439,setitem,1,1,1.7569e-05,2.2109e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,367,ndim,174,174,2.1899e-05,2.1899e-05
+/opt/modules/Python/3.12.13/lib/python3.12/warnings.py,168,simplefilter,3,3,5.66e-06,2.1810000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,863,codes,4,4,1.72e-05,2.1740000000000002e-05
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,358,__init__,8,8,1.4230000000000001e-05,2.171e-05
+/opt/modules/Python/3.12.13/lib/python3.12/enum.py,1291,value,79,79,2.1429e-05,2.1429e-05
+~,0,<method 'format' of 'str' objects>,7,7,2.118e-05,2.118e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,918,__array__,1,1,2.2300000000000002e-06,2.1059000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,739,_extendLine,16,16,1.3729e-05,2.0889000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py,217,_ensure_arraylike,5,5,3.4700000000000002e-06,2.059e-05
+~,0,<built-in method sys.getrefcount>,81,81,2.0499e-05,2.0499e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,128,_classes_and_not_datetimelike,29,29,2.0280000000000002e-05,2.0280000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/std.py,108,__enter__,1,1,3.05e-06,1.987e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6336,_maybe_downcast_for_indexing,2,2,5.9e-06,1.972e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1380,_get_label,1,1,4.77e-06,1.949e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1617,maybe_cast_to_integer_array,1,1,8.5e-06,1.9459e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,133,<lambda>,29,29,1.343e-05,1.879e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/base.py,238,construct_from_string,11,11,1.592e-05,1.872e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,1676,_get_level_number,2,2,1.238e-05,1.87e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,237,_data,1,1,2.43e-06,1.8519e-05
+~,0,<built-in method from_bytes>,69,69,1.8480000000000003e-05,1.8480000000000003e-05
+~,0,<method '__exit__' of '_multiprocessing.SemLock' objects>,32,32,1.8418000000000002e-05,1.8418000000000002e-05
+/opt/modules/Python/3.12.13/lib/python3.12/contextlib.py,272,contextmanager,1,1,6.16e-06,1.8399e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/stride_tricks.py,542,<genexpr>,48,48,1.815e-05,1.815e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py,189,_na_arithmetic_op,1,1,7.25e-06,1.805e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2339,_preprocess_slice_or_indexer,7,7,1.4050000000000001e-05,1.7950000000000003e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,53,_commit_removals,4,4,1.3160000000000001e-05,1.774e-05
+~,0,<built-in method sys.intern>,39,39,1.7349e-05,1.7349e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,6439,_reduce,1,1,5.5200000000000005e-06,1.717e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/std.py,100,acquire,1,1,1.214e-05,1.682e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/validation/validation.py,425,string_like,16,16,1.3290000000000002e-05,1.651e-05
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,175,_type_check,3,3,1.231e-05,1.6469e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2757,is_nested_tuple,10,10,1.2e-05,1.626e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2508,_cumsum_dispatcher,80,80,1.613e-05,1.613e-05
+~,0,<built-in method now>,4,4,1.5979e-05,1.5979e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1137,flush,2,2,6.650000000000001e-06,1.5769e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,892,bincount,80,80,1.561e-05,1.561e-05
+~,0,<built-in method posix.fspath>,91,91,1.543e-05,1.543e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,688,<lambda>,26,26,1.089e-05,1.5300000000000003e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1869,from_blocks,5,5,1.1920000000000001e-05,1.528e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4181,xs,1,1,2.73e-06,1.4720000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,619,categories,132,132,1.4649000000000002e-05,1.4649000000000002e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,129,getLevelName,6,6,9.450000000000001e-06,1.4619e-05
+~,0,<built-in method _thread.get_ident>,55,55,1.449e-05,1.449e-05
+~,0,<built-in method _imp.find_frozen>,24,24,1.443e-05,1.443e-05
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,200,_is_internal_frame,6,6,9.4e-06,1.4350000000000002e-05
+~,0,<built-in method _thread.allocate_lock>,25,25,1.4330000000000002e-05,1.4330000000000002e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,3044,_maybe_to_slice,10,10,1.249e-05,1.413e-05
+~,0,<built-in method builtins.id>,87,87,1.4039e-05,1.4039e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,466,array_equivalent,1,1,5.89e-06,1.3990000000000002e-05
+~,0,<built-in method numpy.geterrobj>,64,64,1.3969000000000001e-05,1.3969000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2692,max,1,1,2.38e-06,1.356e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,64,_make_options_dict,1,1,7.2900000000000005e-06,1.3510000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numerictypes.py,283,issubclass_,8,8,5.670000000000001e-06,1.3330000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,602,copy_func,1,1,2.909e-06,1.3329e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2519,__getitem__,1,1,7.610000000000001e-06,1.32e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/extension.py,67,fget,5,5,1.7490000000000001e-06,1.3149e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,823,ordered,16,16,7.78e-06,1.2980000000000001e-05
+~,0,<built-in method _imp.is_builtin>,24,24,1.2969e-05,1.2969e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1600,<genexpr>,22,22,6.69e-06,1.266e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/std.py,111,__exit__,1,1,2.9800000000000003e-06,1.254e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1507,_maybe_update_cacher,1,1,3.94e-06,1.2450000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,816,copy,2,2,1.0880000000000001e-05,1.2440000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,1231,__call__,16,16,1.2440000000000001e-05,1.2440000000000001e-05
+~,0,<method 'endswith' of 'str' objects>,24,24,1.2420000000000001e-05,1.2420000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/compat/python.py,1,<module>,1,1,7.15e-06,1.23e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1704,_validate_names,1,1,7.15e-06,1.2230000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1403,np_find_common_type,1,1,1.196e-05,1.2100000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,981,dtype,40,40,1.1560000000000001e-05,1.181e-05
+<frozen posixpath>,169,basename,2,2,7.080000000000001e-06,1.165e-05
+~,0,<method 'pop' of 'dict' objects>,23,23,1.148e-05,1.148e-05
+<frozen posixpath>,117,splitext,2,2,5.49e-06,1.1259e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/packaging/version.py,1178,_cmpkey,19,19,8.63e-06,1.125e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_asarray.py,27,require,1,1,7.620000000000001e-06,1.115e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py,1017,_get_support,32,32,1.093e-05,1.093e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1284,_iset_single,1,1,2.8500000000000002e-06,1.0670000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1530,construct_1d_arraylike_from_scalar,2,2,6.130000000000001e-06,1.0660000000000001e-05
+~,0,<built-in method numpy.promote_types>,16,16,1.0629000000000001e-05,1.0629000000000001e-05
+~,0,<method 'issuperset' of 'frozenset' objects>,19,19,1.06e-05,1.06e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/category.py,189,_engine_type,1,1,3.48e-06,1.0599000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,85,empty_like,64,64,1.056e-05,1.056e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1017,view,1,1,2.3e-06,1.042e-05
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,21,__enter__,4,4,6.470000000000001e-06,1.0340000000000001e-05
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2374,get_args,1,1,3.7800000000000002e-06,1.0310000000000001e-05
+~,0,<built-in method _weakref._remove_dead_weakref>,25,25,1.022e-05,1.022e-05
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,35,update_wrapper,1,1,4.859e-06,1.0109000000000001e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,3172,_ndim_dispatcher,64,64,1.01e-05,1.01e-05
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/computation/expressions.py,226,evaluate,1,1,1.8800000000000002e-06,9.74e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/std.py,104,release,1,1,8.33e-06,9.56e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,821,obs,72,72,9.55e-06,9.55e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/function_base.py,1913,_place_dispatcher,48,48,9.460000000000001e-06,9.460000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,1164,__new__,8,8,6.1400000000000005e-06,9.440000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py,482,nanany,1,1,1.7300000000000002e-06,8.930000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,867,uns,9,9,6.910000000000001e-06,8.890000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,968,acquire,4,4,5.779e-06,8.839000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2163,_codes,39,39,8.65e-06,8.65e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1980,shape,16,16,8.489000000000001e-06,8.489000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,401,__eq__,8,8,4.59e-06,8.41e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,2868,extend_blocks,3,3,5.2500000000000006e-06,8.3e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/table.py,146,SimpleTable,1,1,8.11e-06,8.11e-06
+~,0,<method 'all' of 'numpy.ndarray' objects>,1,1,2.24e-06,8.040000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2801,_na_value,3,3,5.8e-06,7.97e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1252,_is_scalar_access,1,1,6.87e-06,7.97e-06
+<frozen importlib._bootstrap>,599,__init__,24,24,7.94e-06,7.94e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/computation/expressions.py,67,_evaluate_standard,1,1,1.7500000000000002e-06,7.860000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_utils/__init__.py,1098,raise_not_implemented_error_if_backed_type,1,1,1.68e-06,7.8e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/missing.py,564,_array_equivalent_object,1,1,7.77e-06,7.77e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,4003,_check_indexing_method,2,2,4.12e-06,7.4090000000000006e-06
+~,0,<method 'acquire' of '_thread.lock' objects>,3,3,7.4e-06,7.4e-06
+~,0,<built-in method builtins.locals>,2,2,7.3800000000000005e-06,7.3800000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/table.py,931,Cell,1,1,7.360000000000001e-06,7.360000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,668,usesTime,2,2,2.2700000000000003e-06,7.289000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py,1005,_argcheck,16,16,7.170000000000001e-06,7.170000000000001e-06
+<frozen posixpath>,138,splitroot,4,4,5.680000000000001e-06,7.010000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/copy.py,231,_keep_alive,4,4,5.248e-06,6.988000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/copy.py,172,_deepcopy_atomic,72,72,6.830000000000001e-06,6.830000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2265,_stack_arrays,1,1,5.29e-06,6.740000000000001e-06
+~,0,<built-in method _imp._fix_co_filename>,23,23,6.6700000000000005e-06,6.6700000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,167,__setattr__,3,3,5.62e-06,6.660000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,917,__len__,1,1,4.800000000000001e-07,6.639e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2836,min,1,1,1.4200000000000002e-06,6.579e-06
+~,0,<method 'acquire' of '_thread.RLock' objects>,6,6,6.560000000000001e-06,6.560000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py,4634,_clear_item_cache,7,7,4.26e-06,6.5000000000000004e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,3003,recode_for_categories,1,1,3.58e-06,6.4900000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,1592,_validate_scalar,1,1,1.5800000000000001e-06,6.35e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_internal.py,920,npy_ctypes_check,5,5,6.28e-06,6.28e-06
+<frozen importlib._bootstrap_external>,1577,<genexpr>,40,40,6.28e-06,6.28e-06
+~,0,<built-in method _asyncio.current_task>,2,2,6.24e-06,6.24e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_utils/__init__.py,1094,is_backed_type,1,1,1.2000000000000002e-06,6.120000000000001e-06
+~,0,<built-in method _operator.lt>,1,1,6.110000000000001e-06,6.110000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/arrayprint.py,403,_get_formatdict,1,1,6.09e-06,6.09e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py,1780,np_can_hold_element,20,20,6.09e-06,6.09e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,831,construct_from_string,1,1,4.34e-06,6.0500000000000005e-06
+<frozen _collections_abc>,469,__new__,1,1,3.87e-06,6.0500000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,1305,construct_from_string,1,1,4.159e-06,6.049e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_dtype.py,24,_kind_name,16,16,6.02e-06,6.02e-06
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,429,_format_parsed_parts,4,4,3.6800000000000003e-06,5.93e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_methods.py,61,_all,1,1,9.300000000000001e-07,5.8e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,1054,construct_from_string,1,1,3.7800000000000002e-06,5.7000000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/raw.py,110,var_names,1,1,5.230000000000001e-06,5.65e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,170,<lambda>,2,2,3.4100000000000004e-06,5.45e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py,4017,_maybe_update_cacher,1,1,3.4600000000000003e-06,5.45e-06
+~,0,<method 'splitlines' of 'str' objects>,16,16,5.37e-06,5.37e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,302,__exit__,1,1,4.540000000000001e-06,5.31e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,483,_view,1,1,2.83e-06,5.240000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,975,release,4,4,3.5600000000000002e-06,5.2e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/rng_qrng.py,1,<module>,1,1,3.6000000000000003e-06,5.1700000000000005e-06
+/opt/modules/Python/3.12.13/lib/python3.12/platform.py,1017,machine,1,1,4.4600000000000005e-06,5.150000000000001e-06
+<frozen genericpath>,133,_splitext,2,2,3.6190000000000004e-06,5.149e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,447,usesTime,2,2,3.6690000000000004e-06,5.0190000000000006e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/_ufunc_config.py,426,__init__,16,16,4.96e-06,4.96e-06
+~,0,<method 'add' of 'set' objects>,7,7,4.95e-06,4.95e-06
+<frozen posixpath>,52,normcase,6,6,3.7e-06,4.95e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/errors/__init__.py,535,_check_cacher,1,1,8.200000000000001e-07,4.94e-06
+<frozen importlib._bootstrap>,412,__init__,25,25,4.84e-06,4.84e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,531,validate_ordered,12,12,4.7200000000000005e-06,4.7200000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,7789,_unpack_nested_dtype,2,2,3.3300000000000003e-06,4.68e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,234,_acquireLock,1,1,3.0600000000000003e-06,4.620000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,74,__len__,1,1,8.900000000000001e-07,4.599e-06
+<frozen importlib._bootstrap_external>,1157,__init__,23,23,4.52e-06,4.52e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/common.py,81,get_op_result_name,1,1,1.17e-06,4.5e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,231,_constructor,24,24,4.39e-06,4.39e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,6324,_index_as_unique,5,5,3.830000000000001e-06,4.34e-06
+<string>,2,_parse_args,16,16,4.32e-06,4.32e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,195,any_not_none,1,1,1.3300000000000002e-06,4.2900000000000004e-06
+<frozen importlib._bootstrap>,158,__init__,25,25,4.2900000000000004e-06,4.2900000000000004e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/tqdm/std.py,766,get_lock,1,1,1.85e-06,4.2800000000000005e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/summary2.py,16,Summary,1,1,4.16e-06,4.16e-06
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,744,is_related,4,4,2.2690000000000002e-06,4.159e-06
+/opt/modules/Python/3.12.13/lib/python3.12/enum.py,1286,name,4,4,4.0100000000000006e-06,4.0100000000000006e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,2227,_can_hold_na,3,3,3.23e-06,3.95e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/raw.py,63,X,1,1,1.4390000000000001e-06,3.889e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,299,__enter__,1,1,2.9700000000000004e-06,3.86e-06
+~,0,<built-in method posix.getpid>,2,2,3.79e-06,3.79e-06
+~,0,<built-in method sys._getframe>,6,6,3.7700000000000003e-06,3.7700000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_csc.py,36,tocsc,24,24,3.729e-06,3.729e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,2228,construct_from_string,1,1,2.7500000000000004e-06,3.62e-06
+<frozen importlib._bootstrap_external>,71,_relax_case,28,28,3.48e-06,3.48e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/table.py,711,Row,1,1,3.4100000000000004e-06,3.4100000000000004e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,775,_argpartition_dispatcher,16,16,3.36e-06,3.36e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,632,ordered,27,27,3.3200000000000004e-06,3.3200000000000004e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1877,_nonzero_dispatcher,17,17,3.2900000000000003e-06,3.2900000000000003e-06
+<frozen importlib._bootstrap_external>,1182,get_filename,23,23,3.2500000000000002e-06,3.2500000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/numeric.py,411,_count_nonzero_dispatcher,17,17,3.23e-06,3.23e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,1976,_shape_dispatcher,16,16,3.17e-06,3.17e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2416,_all_dispatcher,16,16,3.17e-06,3.17e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,91,_take_dispatcher,16,16,3.1600000000000002e-06,3.1600000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,306,loc,3,3,3.1000000000000004e-06,3.1000000000000004e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/dispatch.py,17,should_extension_dispatch,1,1,8.6e-07,3.08e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,301,maybe_iterable_to_list,1,1,1.0500000000000001e-06,2.96e-06
+<frozen importlib._bootstrap>,653,has_location,23,23,2.96e-06,2.96e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,1485,current_thread,2,2,2.56e-06,2.9400000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1279,is_extension_array_dtype,1,1,1.3100000000000002e-06,2.909e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,314,_is_owned,1,1,8.200000000000001e-07,2.9e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,520,convert_to_list_like,2,2,2.4000000000000003e-06,2.86e-06
+<frozen importlib._bootstrap_external>,990,create_module,23,23,2.83e-06,2.83e-06
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,166,_type_convert,3,3,1.21e-06,2.8290000000000004e-06
+~,0,<method 'acquire' of '_multiprocessing.SemLock' objects>,1,1,2.74e-06,2.74e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/categorical.py,2945,_validate,1,1,1.6200000000000002e-06,2.7200000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,1835,construct_from_string,1,1,2.03e-06,2.6300000000000002e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,1182,name,2,2,2.6200000000000003e-06,2.6200000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,1227,_validate_key,1,1,1.1e-06,2.61e-06
+~,0,<method 'release' of '_thread.RLock' objects>,6,6,2.61e-06,2.61e-06
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,308,_release_save,1,1,2.16e-06,2.5800000000000003e-06
+~,0,<method 'index' of 'list' objects>,2,2,2.56e-06,2.56e-06
+~,0,<built-in method time.time>,3,3,2.5300000000000003e-06,2.5300000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1693,name,1,1,1.56e-06,2.5e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,994,is_numeric_v_string_like,1,1,1.9200000000000003e-06,2.48e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,1003,isbacked,1,1,1.0700000000000001e-06,2.4500000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2639,_tuplify,1,1,2.4400000000000004e-06,2.4400000000000004e-06
+/opt/modules/Python/3.12.13/lib/python3.12/_weakrefset.py,17,__init__,4,4,2.43e-06,2.43e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/openfile.py,7,EmptyContextManager,1,1,2.4100000000000002e-06,2.4100000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,1008,is_view,10,10,2.39e-06,2.39e-06
+~,0,<method 'flush' of '_io.TextIOWrapper' objects>,2,2,2.37e-06,2.37e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,1772,_get_names,2,2,1.9200000000000003e-06,2.3600000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1232,_get_value,1,1,1.4400000000000002e-06,2.35e-06
+~,0,<method 'remove' of 'collections.deque' objects>,1,1,2.35e-06,2.35e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/base.py,149,__ne__,1,1,1.39e-06,2.3100000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,4443,_wrap_reindex_result,1,1,2.11e-06,2.29e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/arrays/string_.py,236,construct_from_string,1,1,2.1400000000000003e-06,2.2700000000000003e-06
+~,0,<method 'remove' of 'set' objects>,4,4,2.21e-06,2.21e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/multi.py,596,<genexpr>,2,2,1.9200000000000003e-06,2.19e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/shape_base.py,19,_atleast_1d_dispatcher,16,16,2.13e-06,2.13e-06
+/opt/modules/Python/3.12.13/lib/python3.12/functools.py,65,wraps,1,1,2.13e-06,2.13e-06
+/opt/modules/Python/3.12.13/lib/python3.12/weakref.py,414,__getitem__,1,1,2.08e-06,2.08e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,383,getMessage,2,2,2.06e-06,2.06e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/lib/stride_tricks.py,476,_broadcast_arrays_dispatcher,16,16,2.04e-06,2.04e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,831,filter,4,4,1.99e-06,1.99e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/docstring_helpers.py,16,Appender,1,1,1.9600000000000003e-06,1.9600000000000003e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,342,construct_from_string,1,1,1.8400000000000002e-06,1.95e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/base.py,152,na_value,2,2,1.87e-06,1.87e-06
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,213,_should_unflatten_callable_args,1,1,1.8600000000000002e-06,1.8600000000000002e-06
+<frozen _collections_abc>,341,__subclasshook__,12,12,1.8400000000000002e-06,1.8400000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,261,_standardize_fill_value,1,1,1.43e-06,1.7800000000000001e-06
+<frozen posixpath>,41,_get_sep,2,2,8.200000000000001e-07,1.7800000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,677,iat,2,2,1.7500000000000002e-06,1.7500000000000002e-06
+~,0,<method 'isidentifier' of 'str' objects>,3,3,1.74e-06,1.74e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,2196,_grouping_func,1,1,9.400000000000001e-07,1.67e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/_settings.py,160,verbosity,4,4,1.63e-06,1.63e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,5098,values,1,1,1.41e-06,1.63e-06
+~,0,<method 'fill' of 'numpy.ndarray' objects>,1,1,1.61e-06,1.61e-06
+~,0,<method 'match' of 're.Pattern' objects>,1,1,1.5800000000000001e-06,1.5800000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/multiprocessing/process.py,37,current_process,2,2,1.5500000000000002e-06,1.5500000000000002e-06
+~,0,<method 'total_seconds' of 'datetime.timedelta' objects>,1,1,1.54e-06,1.54e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexers/utils.py,123,check_setitem_lengths,1,1,9.400000000000001e-07,1.52e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/_knockoff.py,32,RegressionFDR,1,1,1.5100000000000002e-06,1.5100000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,553,equals,2,2,1.21e-06,1.48e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py,2610,_convert_key,2,2,1.39e-06,1.39e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,4313,_validate_can_reindex,1,1,7.100000000000001e-07,1.39e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,1013,filename,1,1,1.2200000000000002e-06,1.3800000000000001e-06
+~,0,<method 'find' of 'str' objects>,2,2,1.35e-06,1.35e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,7718,ensure_has_len,1,1,3.5000000000000004e-07,1.32e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/records.py,576,_deprecate_shape_0_as_None,5,5,1.32e-06,1.32e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/iolib/smpickle.py,23,_CompatUnpickler,1,1,1.3e-06,1.3e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,444,LocalFDRCorrectionResult,1,1,1.26e-06,1.26e-06
+/opt/modules/Python/3.12.13/lib/python3.12/weakref.py,427,__setitem__,1,1,1.25e-06,1.25e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/_test_runner.py,6,PytestTester,1,1,1.23e-06,1.23e-06
+~,0,<method 'search' of 're.Pattern' objects>,1,1,1.2200000000000002e-06,1.2200000000000002e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/docstring_helpers.py,67,Substitution,1,1,1.21e-06,1.21e-06
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,243,_releaseLock,1,1,7.200000000000001e-07,1.2000000000000002e-06
+~,0,<method '__contains__' of 'frozenset' objects>,3,3,1.1800000000000001e-06,1.1800000000000001e-06
+~,0,<method 'count' of 'list' objects>,2,2,1.1600000000000001e-06,1.1600000000000001e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,693,_constructor,3,3,1.13e-06,1.13e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,1492,_clear_item_cache,9,9,1.12e-06,1.12e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/validation/validation.py,184,PandasWrapper,1,1,1.0700000000000001e-06,1.0700000000000001e-06
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,437,__str__,4,4,1.0700000000000001e-06,1.0700000000000001e-06
+~,0,<method 'upper' of 'str' objects>,1,1,1.04e-06,1.04e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py,1847,ndim,6,6,1.03e-06,1.03e-06
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,569,_tail,4,4,1.01e-06,1.01e-06
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/six.py,194,find_spec,1,1,1.0000000000000002e-06,1.0000000000000002e-06
+~,0,<built-in method math.floor>,1,1,9.9e-07,9.9e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/stats/multitest.py,856,NullDistribution,1,1,9.200000000000001e-07,9.200000000000001e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/common.py,1124,<lambda>,1,1,7.200000000000001e-07,9.200000000000001e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/ops/missing.py,131,dispatch_fill_zeros,1,1,8.900000000000001e-07,8.900000000000001e-07
+/opt/modules/Python/3.12.13/lib/python3.12/collections/__init__.py,429,<genexpr>,3,3,8.900000000000001e-07,8.900000000000001e-07
+~,0,<method '__enter__' of '_thread.lock' objects>,1,1,8.900000000000001e-07,8.900000000000001e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/statsmodels/tools/tools.py,420,Bunch,1,1,8.8e-07,8.8e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/common.py,199,<genexpr>,4,4,8.7e-07,8.7e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/base.py,160,_freeze,1,1,8.4e-07,8.4e-07
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1776,getEffectiveLevel,1,1,8.200000000000001e-07,8.200000000000001e-07
+/opt/modules/Python/3.12.13/lib/python3.12/pathlib.py,560,root,4,4,7.7e-07,7.7e-07
+~,0,<method '__exit__' of '_thread.lock' objects>,1,1,7.7e-07,7.7e-07
+~,0,<method 'copy' of 'dict' objects>,1,1,7.5e-07,7.5e-07
+<string>,1,<module>,1,1,7.4e-07,7.4e-07
+~,0,<method 'release' of '_multiprocessing.SemLock' objects>,1,1,7.4e-07,7.4e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/category.py,275,equals,1,1,5.900000000000001e-07,7.4e-07
+~,0,<method 'tolist' of 'numpy.ndarray' objects>,1,1,7.200000000000001e-07,7.200000000000001e-07
+~,0,<method 'discard' of 'set' objects>,1,1,7.200000000000001e-07,7.200000000000001e-07
+/opt/modules/Python/3.12.13/lib/python3.12/multiprocessing/process.py,189,name,2,2,7.100000000000001e-07,7.100000000000001e-07
+/opt/modules/Python/3.12.13/lib/python3.12/platform.py,891,uname,1,1,6.900000000000001e-07,6.900000000000001e-07
+~,0,<method 'append' of 'collections.deque' objects>,1,1,6.6e-07,6.6e-07
+~,0,<method 'keys' of 'dict' objects>,1,1,6.5e-07,6.5e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,710,raw,3,3,6.4e-07,6.4e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/series.py,663,_constructor,3,3,6.4e-07,6.4e-07
+/opt/modules/Python/3.12.13/lib/python3.12/logging/__init__.py,1369,disable,1,1,5.6e-07,5.6e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/missing.py,1073,clean_reindex_fill_method,2,2,5.3e-07,5.3e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,380,is_unique,3,3,5.1e-07,5.1e-07
+/opt/modules/Python/3.12.13/lib/python3.12/threading.py,601,is_set,1,1,5.1e-07,5.1e-07
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2880,_namedtuple_mro_entries,1,1,4.800000000000001e-07,4.800000000000001e-07
+/opt/modules/Python/3.12.13/lib/python3.12/typing.py,2820,<genexpr>,2,2,4.6000000000000004e-07,4.6000000000000004e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,298,stop,2,2,4.3e-07,4.3e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/raw.py,94,var,1,1,4.2e-07,4.2e-07
+~,0,<method 'release' of '_thread.lock' objects>,1,1,4.2e-07,4.2e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/range.py,401,inferred_type,4,4,4.1000000000000004e-07,4.1000000000000004e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/anndata.py,844,var,1,1,3.6000000000000005e-07,3.6000000000000005e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/extension.py,167,_get_engine_target,1,1,3.5000000000000004e-07,3.5000000000000004e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/dtypes/dtypes.py,231,_from_categorical_dtype,1,1,2.2e-07,2.2e-07
+<frozen _collections_abc>,511,_is_param_expr,1,1,2.2e-07,2.2e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py,831,_maybe_copy,1,1,2.1e-07,2.1e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/base.py,323,_consolidate_inplace,1,1,2.0000000000000002e-07,2.0000000000000002e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2831,_min_dispatcher,1,1,2.0000000000000002e-07,2.0000000000000002e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/fromnumeric.py,2687,_max_dispatcher,1,1,1.9e-07,1.9e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexes/base.py,4447,_maybe_preserve_names,1,1,1.8000000000000002e-07,1.8000000000000002e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/anndata/_core/file_backing.py,62,filename,1,1,1.6e-07,1.6e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/numpy/core/multiarray.py,669,result_type,1,1,1.4e-07,1.4e-07
+/home/zsun264/bmi500-venv/lib/python3.12/site-packages/_distutils_hack/__init__.py,108,<lambda>,1,1,1.2000000000000002e-07,1.2000000000000002e-07

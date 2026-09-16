@@ -1,0 +1,243 @@
+BMI 500 Homework 3
+AI-Assisted Code Generation and Experimental Workflow Record
+Session date: 2026-09-16
+
+1. PURPOSE AND DOCUMENTATION METHOD
+
+This document records the use of AI assistance for the permitted Vec-Mat
+programming task and the Scanpy profiling workflow. It identifies the assistant,
+reproduces selected original prompts, summarizes the subsequent interaction,
+and reports implementation decisions and observed validation results.
+
+Quoted prompts below are verbatim excerpts from the student's initial request.
+All other descriptions of the interaction are editorial summaries, not verbatim
+student messages. This document is not a complete conversation transcript; the
+original conversation remains the source record. Summaries do not imply that
+their wording was submitted as a prompt.
+
+2. ASSISTANT AND MODEL IDENTIFICATION
+
+Assistant: OpenAI Codex.
+Model family: GPT-6, as identified in the session instructions.
+Exact backend model identifier, snapshot, or build: not exposed in the
+conversation and not independently verified. The model family should not be
+interpreted as an exact snapshot identifier.
+
+3. ORIGINAL TASK PROMPTS
+
+The student requested implementation based on the instructor's starter code,
+with explicit requirements for testing, input validation, and documentation.
+The following excerpts were supplied in the initial request:
+
+"Generate/complete the implementation based on the comments in the provided file."
+"Generate tests in matvec_test.py."
+"Analyze likely failure modes and add appropriate guards/error handling."
+"Do not unnecessarily rewrite existing starter code."
+"I need to document the AI assistant, model/version, prompts, and relevant interaction in AI_code_gen.txt."
+"Help me create this documentation accurately based on what we actually do."
+"Start by inspecting the repository structure and README. Then identify the files relevant to the Vec-Mat task and Scanpy profiling task. Tell me what you find and propose the next immediate step."
+
+4. SCOPE AND RESPONSIBILITIES
+
+The student required incremental work, preservation of instructor-provided
+starter code, and documentation grounded in actual actions and outputs.
+The Python Quiz was excluded from AI assistance. Computational experiments
+on OddJobs were required to run through Slurm rather than on the login node.
+Experimental measurements and review records were not to be fabricated.
+
+Codex generated the Vec-Mat implementation and tests, prepared the profiling
+instrumentation and batch script, and analyzed downloaded experimental results.
+The student executed the remote setup, submission, and transfer commands and
+provided terminal output for troubleshooting. The required manual review must
+come from a class partner. The required independent AI review must use a
+different assistant or model from the code-generation assistant.
+
+5. VEC-MAT INTERACTION SUMMARY
+
+Repository inspection:
+Codex inspected README.md, requirements.txt, Git status, and the files relevant
+to Vec-Mat and Scanpy. The working tree was initially clean. The Vec-Mat starter
+contained task comments and an import of random, but no implementation.
+
+Implementation authorization:
+After receiving the initial findings and proposed next step, the student
+authorized implementation and testing of Vec-Mat with concurrent documentation.
+
+Assignment alignment:
+Codex consulted the relevant lecture PDF text. Physical PDF page 58 (printed
+slide 60) specified matvec_test.py and AI_code_gen.txt. Physical PDF page 76
+(printed slide 78) required a different assistant for the independent AI review.
+The document was used as assignment context. Existing starter comments were
+preserved, and matvec_tests.py was renamed to matvec_test.py to match the
+required filename.
+
+Implementation:
+Codex implemented dot_product, matvec_multiply, and main. dot_product computes
+a scalar product using a for loop. matvec_multiply calls dot_product for each
+matrix row. main uses a local random.Random(500) generator to construct a
+reproducible 1000x1000 example and executes only when the module is run directly.
+The implementation and tests require no external numerical libraries.
+
+Validation:
+Codex added unittest cases, executed them locally, and ran the demonstration.
+The results are recorded in Section 7. These activities were generation-stage
+validation, not the separate independent AI review required by the assignment.
+
+6. INPUT CONTRACT AND FAILURE-MODE HANDLING
+
+Dimension mismatches:
+Vector lengths are checked before iteration to prevent silent truncation by
+zip. Every matrix row must match the vector length, which also rejects ragged
+matrices.
+
+Input types:
+Vectors and matrix rows must be lists or tuples containing finite real numbers.
+Unsupported containers, nonnumeric values, complex numbers, and booleans raise
+TypeError. Generators, NumPy arrays, arbitrary iterables, and Decimal values
+are outside the supported input contract.
+
+Nonfinite inputs and arithmetic overflow:
+NaN and infinity inputs raise ValueError. Nonfinite floating-point accumulation
+raises OverflowError; native Python overflow exceptions also propagate. Python
+integers retain arbitrary precision without conversion to floating point.
+Ordinary floating-point rounding remains possible; compensated summation and
+a numerical-stability guarantee are not provided.
+
+Empty inputs:
+dot_product([], []) returns 0. An empty matrix returns an empty list. Each
+zero-column row multiplied by an empty vector produces 0. The vector is
+validated even when the matrix is empty.
+
+Side effects:
+The functions do not modify their inputs. Importing the module does not execute
+the demonstration.
+
+7. OBSERVED LOCAL VALIDATION
+
+Environment: Windows, Python 3.13.7.
+These checks validate Vec-Mat locally; they are not OddJobs profiling results.
+
+Command:
+python -m unittest -v matvec_test
+
+Observed result:
+Ran 15 tests; OK (all passed).
+
+Coverage included known rectangular and identity products, negative and
+fractional values, tuple inputs, zeros, empty dimensions, incompatible lengths,
+ragged rows, invalid types, nonfinite values, overflow, large integers, and
+preservation of the input matrix and vector.
+
+Command:
+python matvec_multiply.py
+
+Observed output:
+Result length: 1000
+First five entries: [252.66209769299218, 254.89232779904555, 261.1441484737656, 249.45910607054878, 250.0933986683267]
+
+Command:
+git diff --check
+
+Observed result:
+No whitespace errors. Git emitted Windows line-ending advisories.
+
+8. SCANPY INSTRUMENTATION AND CLUSTER SETUP
+
+Interaction summary:
+The student requested step-by-step guidance for the OddJobs workflow and supplied
+terminal output after executing commands. Codex used this evidence to guide
+environment configuration, resolve installation and transfer failures, and
+check the progress of submitted experiments.
+
+Instrumentation:
+Codex implemented time.time-based recording in profile_sections.py and
+instrumented all 16 starter sections of scanpy_pbmc.py. cProfile was applied
+only to the final sc.tl.rank_genes_groups call. The Slurm script runs Python
+through srun and /usr/bin/time -v, capturing console output, process statistics,
+section timings, metadata, installed versions, and copies of the measured code.
+
+Codex corrected the README's out-dir option spelling, applied the thread-count
+argument, and disabled Scanpy read caching. The biological analysis calls and
+parameters were preserved. The H5AD write remains before marker testing, as in
+the starter, so that file does not include the subsequent marker-test results.
+
+Environment:
+The student loaded bmi/python-3.12, which provided Python 3.12.13, and created
+/home/zsun264/bmi500-venv. Observed import failures were resolved by installing
+anndata 0.10.8, zarr 2.18.7, and setuptools 80.9.0. The resulting installed
+versions were recorded in requirements-oddjobs.txt.
+
+Transfers and execution:
+File transfers used scp -O after the default SFTP subsystem request failed.
+Remote commands were executed by the student; Codex did not execute the
+successful remote experiments directly. Interactive-session timeouts and SSH
+disconnections were distinguished from the status of independent batch jobs.
+
+9. EXPERIMENTAL PROVENANCE
+
+Successful Slurm jobs:
+- pbmc3k: 1289747
+- pbmc6k: 1289760
+- pbmc10k: 1289774
+
+Jobs 1289755 and 1289757 failed during CPU binding before Python started and
+were excluded from performance analysis. Codex changed the batch srun command
+to specify --cpu-bind=cores. The student applied the same change remotely and
+resubmitted the affected experiments. The successful 3K run used the earlier
+binding configuration; its saved script preserves that distinction.
+
+The student downloaded the successful run directories. Codex verified their
+exit codes and completion metadata and read their actual cProfile files before
+generating the analysis. Original results and measured source snapshots are
+retained in the corresponding results/ directories.
+
+10. ANALYSIS AND REPORT GENERATION
+
+Following confirmation that the downloads were complete, Codex generated
+analyze_profiles.py, profiling_report/, and scanpy_profiling.ipynb. The analysis
+uses only the downloaded experimental measurements. Outputs include section
+runtime plots, self-time and cumulative-time cProfile visualizations for each
+dataset, CSV tables, a source hash manifest, and a profiling-only report.
+
+The 20K scenario scales data-dependent sections of the 10K experiment by
+20000/11769 while holding setup sections constant. A quadratic scenario
+illustrates sensitivity to the assumed growth rate. These values are estimates,
+not measurements or confidence intervals. The report documents the limitations
+of single-run observations, different hosts and CPU-binding settings, profiling
+overhead, cache behavior, and differences in dataset composition.
+
+Observed local validation:
+python analyze_profiles.py completed successfully, validated three successful
+runs, and generated five figures. The pbmc10k cProfile chart was visually
+inspected. git diff --check found no whitespace errors. Notebook code cells
+remain unexecuted; embedded figures were generated by the analysis script.
+
+11. FILES AND CURRENT STATUS
+
+Vec-Mat:
+- matvec_multiply.py
+- matvec_test.py, renamed from matvec_tests.py
+- AI_code_gen.txt
+
+Profiling and reproducibility:
+- scanpy_pbmc.py and profile_sections.py
+- slurm/scanpy_pbmc.sbatch
+- requirements-oddjobs.txt
+- Successful run records under results/
+- analyze_profiles.py and profiling_report/
+- scanpy_profiling.ipynb
+- README.md, .gitignore, and .gitattributes
+
+Submission tracking and independent review:
+- SUBMISSION_CHECKLIST.md records completed and outstanding requirements.
+- The student subsequently supplied a Claude review response. Codex recorded
+  and translated it in ai_code_review.txt without performing the independent
+  review or changing the implementation in response. The actual prompt sent
+  to Claude remains to be supplied. Model details are attributed to the
+  reviewer's self-report rather than independently verified.
+
+No Python Quiz answers were generated or modified. The class-partner manual
+review remains outstanding. The notebook and PDF currently cover profiling
+rather than the complete homework submission. Numba caches and regenerable
+H5AD files are ignored by Git but were not deleted. Codex has not committed,
+pushed, or sent the repository link to the TA.

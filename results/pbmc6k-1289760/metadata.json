@@ -1,0 +1,13 @@
+{
+  "dataset": "pbmc6k",
+  "threads": 1,
+  "scanpy_version": "1.10.2",
+  "python_version": "3.12.13",
+  "hostname": "bignode7.priv.bmi.emory.edu",
+  "scanpy_read_cache": false,
+  "status": "complete",
+  "input_cells": 5419,
+  "input_genes": 32738,
+  "analyzed_cells": 5418,
+  "analyzed_genes": 2000
+}

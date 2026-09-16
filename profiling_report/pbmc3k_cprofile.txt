@@ -1,0 +1,50 @@
+Wed Sep 16 01:39:14 2026    C:\Users\sunze\OneDrive\Desktop\bmi500\results\pbmc3k-1289747\rank_genes_groups.prof
+
+         41846 function calls (40938 primitive calls) in 1.875 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1028 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.875    1.875 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/legacy_api_wrap/__init__.py:83(fn_compatible)
+        1    0.000    0.000    1.874    1.874 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:469(rank_genes_groups)
+        1    0.002    0.002    1.819    1.819 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:398(compute_statistics)
+        5    0.007    0.001    1.767    0.353 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:277(wilcoxon)
+        5    0.014    0.003    1.484    0.297 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:45(_ranks)
+        4    0.000    0.000    1.382    0.345 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:10012(rank)
+        4    0.000    0.000    1.382    0.345 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:10127(ranker)
+        4    1.381    0.345    1.381    0.345 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/algorithms.py:1067(rank)
+    60/59    0.000    0.000    0.111    0.002 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py:1177(__getitem__)
+       41    0.000    0.000    0.107    0.003 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py:1690(_getitem_tuple)
+       57    0.000    0.000    0.106    0.002 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py:1720(_getitem_axis)
+       23    0.000    0.000    0.104    0.005 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py:1206(_getbool_axis)
+       23    0.000    0.000    0.103    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:4164(_take_with_is_copy)
+       23    0.000    0.000    0.102    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:4049(take)
+        1    0.000    0.000    0.102    0.102 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:174(_basic_stats)
+       23    0.000    0.000    0.101    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:888(take)
+       16    0.000    0.000    0.101    0.006 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/indexing.py:1005(_getitem_tuple_same_dim)
+       24    0.000    0.000    0.099    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:642(reindex_indexer)
+       12    0.000    0.000    0.097    0.008 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_index.py:29(__getitem__)
+       39    0.000    0.000    0.097    0.002 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py:1353(take_nd)
+    54/53    0.000    0.000    0.096    0.002 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py:59(take_nd)
+       53    0.095    0.002    0.096    0.002 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/array_algos/take.py:120(_take_nd_ndarray)
+        8    0.000    0.000    0.090    0.011 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_csc.py:140(_get_arrayXslice)
+        8    0.000    0.000    0.090    0.011 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py:651(_minor_index_fancy)
+        4    0.000    0.000    0.087    0.022 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:70(<lambda>)
+        4    0.000    0.000    0.081    0.020 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:56(<lambda>)
+        4    0.000    0.000    0.081    0.020 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py:1002(toarray)
+        4    0.081    0.020    0.081    0.020 {built-in method scipy.sparse._sparsetools.csr_todense}
+        8    0.078    0.010    0.078    0.010 {built-in method scipy.sparse._sparsetools.csr_column_index2}
+       16    0.000    0.000    0.069    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py:11688(sum)
+       16    0.000    0.000    0.069    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:12563(sum)
+       16    0.000    0.000    0.069    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/generic.py:12524(_min_count_stat_function)
+       16    0.004    0.000    0.068    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py:11462(_reduce)
+       16    0.000    0.000    0.061    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/managers.py:1502(reduce)
+       16    0.000    0.000    0.059    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/internals/blocks.py:400(reduce)
+       16    0.000    0.000    0.058    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/frame.py:11485(blk_func)
+       16    0.000    0.000    0.058    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py:76(_f)
+       16    0.000    0.000    0.058    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py:389(new_func)
+       16    0.000    0.000    0.057    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py:455(newfunc)
+       16    0.000    0.000    0.057    0.004 /home/zsun264/bmi500-venv/lib/python3.12/site-packages/pandas/core/nanops.py:604(nansum)
+
+

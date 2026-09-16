@@ -1,0 +1,4 @@
+run,input_cells,analyzed_cells,clusters,host,wall_seconds,user_seconds,system_seconds,cpu_percent,max_rss_kib,section_sum_seconds
+pbmc3k-1289747,2700,2700,4,bignode2.priv.bmi.emory.edu,40.81,31.81,5.84,92%,910040,39.97967505455017
+pbmc6k-1289760,5419,5418,7,bignode7.priv.bmi.emory.edu,44.79,41.36,1.56,95%,986612,43.99674963951111
+pbmc10k-1289774,11769,11537,16,bignode2.priv.bmi.emory.edu,87.52,80.86,5.82,99%,1937848,86.32715916633606
