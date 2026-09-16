@@ -5,9 +5,9 @@ Session date: 2026-09-16
 1. PURPOSE AND DOCUMENTATION METHOD
 
 This document records the use of AI assistance for the permitted Vec-Mat
-programming task and the Scanpy profiling workflow. It identifies the assistant,
-reproduces selected original prompts, summarizes the subsequent interaction,
-and reports implementation decisions and observed validation results.
+programming task. It identifies the assistant, reproduces selected original
+prompts, summarizes the subsequent interaction, and reports implementation
+decisions and observed validation results.
 
 Quoted prompts below are verbatim excerpts from the student's initial request.
 All other descriptions of the interaction are editorial summaries, not verbatim
@@ -18,10 +18,9 @@ their wording was submitted as a prompt.
 2. ASSISTANT AND MODEL IDENTIFICATION
 
 Assistant: OpenAI Codex.
-Model family: GPT-6, as identified in the session instructions.
-Exact backend model identifier, snapshot, or build: not exposed in the
-conversation and not independently verified. The model family should not be
-interpreted as an exact snapshot identifier.
+Model: GPT-6 (as reported by Codex during the session).
+Exact backend model identifier, snapshot, or build was not exposed and was
+not independently verified.
 
 3. ORIGINAL TASK PROMPTS
 
@@ -35,7 +34,6 @@ The following excerpts were supplied in the initial request:
 "Do not unnecessarily rewrite existing starter code."
 "I need to document the AI assistant, model/version, prompts, and relevant interaction in AI_code_gen.txt."
 "Help me create this documentation accurately based on what we actually do."
-"Start by inspecting the repository structure and README. Then identify the files relevant to the Vec-Mat task and Scanpy profiling task. Tell me what you find and propose the next immediate step."
 
 4. SCOPE AND RESPONSIBILITIES
 
@@ -45,18 +43,15 @@ The Python Quiz was excluded from AI assistance. Computational experiments
 on OddJobs were required to run through Slurm rather than on the login node.
 Experimental measurements and review records were not to be fabricated.
 
-Codex generated the Vec-Mat implementation and tests, prepared the profiling
-instrumentation and batch script, and analyzed downloaded experimental results.
-The student executed the remote setup, submission, and transfer commands and
-provided terminal output for troubleshooting. The required manual review must
-come from a class partner. The required independent AI review must use a
-different assistant or model from the code-generation assistant.
+Codex generated the Vec-Mat implementation and tests. The required manual
+review must come from a class partner. The required independent AI review must
+use a different assistant or model from the code-generation assistant.
 
 5. VEC-MAT INTERACTION SUMMARY
 
 Repository inspection:
 Codex inspected README.md, requirements.txt, Git status, and the files relevant
-to Vec-Mat and Scanpy. The working tree was initially clean. The Vec-Mat starter
+to Vec-Mat. The working tree was initially clean. The Vec-Mat starter
 contained task comments and an import of random, but no implementation.
 
 Implementation authorization:
@@ -141,103 +136,12 @@ git diff --check
 Observed result:
 No whitespace errors. Git emitted Windows line-ending advisories.
 
-8. SCANPY INSTRUMENTATION AND CLUSTER SETUP
+8. SEPARATION FROM INDEPENDENT REVIEW
 
-Interaction summary:
-The student requested step-by-step guidance for the OddJobs workflow and supplied
-terminal output after executing commands. Codex used this evidence to guide
-environment configuration, resolve installation and transfer failures, and
-check the progress of submitted experiments.
+This file documents the AI-assisted code-generation stage only. The required
+manual review is to be completed by a class partner. The required independent
+AI code review is documented separately in ai_code_review.txt and must use a
+different assistant or model from the one used for code generation.
 
-Instrumentation:
-Codex implemented time.time-based recording in profile_sections.py and
-instrumented all 16 starter sections of scanpy_pbmc.py. cProfile was applied
-only to the final sc.tl.rank_genes_groups call. The Slurm script runs Python
-through srun and /usr/bin/time -v, capturing console output, process statistics,
-section timings, metadata, installed versions, and copies of the measured code.
-
-Codex corrected the README's out-dir option spelling, applied the thread-count
-argument, and disabled Scanpy read caching. The biological analysis calls and
-parameters were preserved. The H5AD write remains before marker testing, as in
-the starter, so that file does not include the subsequent marker-test results.
-
-Environment:
-The student loaded bmi/python-3.12, which provided Python 3.12.13, and created
-/home/zsun264/bmi500-venv. Observed import failures were resolved by installing
-anndata 0.10.8, zarr 2.18.7, and setuptools 80.9.0. The resulting installed
-versions were recorded in requirements-oddjobs.txt.
-
-Transfers and execution:
-File transfers used scp -O after the default SFTP subsystem request failed.
-Remote commands were executed by the student; Codex did not execute the
-successful remote experiments directly. Interactive-session timeouts and SSH
-disconnections were distinguished from the status of independent batch jobs.
-
-9. EXPERIMENTAL PROVENANCE
-
-Successful Slurm jobs:
-- pbmc3k: 1289747
-- pbmc6k: 1289760
-- pbmc10k: 1289774
-
-Jobs 1289755 and 1289757 failed during CPU binding before Python started and
-were excluded from performance analysis. Codex changed the batch srun command
-to specify --cpu-bind=cores. The student applied the same change remotely and
-resubmitted the affected experiments. The successful 3K run used the earlier
-binding configuration; its saved script preserves that distinction.
-
-The student downloaded the successful run directories. Codex verified their
-exit codes and completion metadata and read their actual cProfile files before
-generating the analysis. Original results and measured source snapshots are
-retained in the corresponding results/ directories.
-
-10. ANALYSIS AND REPORT GENERATION
-
-Following confirmation that the downloads were complete, Codex generated
-analyze_profiles.py, profiling_report/, and scanpy_profiling.ipynb. The analysis
-uses only the downloaded experimental measurements. Outputs include section
-runtime plots, self-time and cumulative-time cProfile visualizations for each
-dataset, CSV tables, a source hash manifest, and a profiling-only report.
-
-The 20K scenario scales data-dependent sections of the 10K experiment by
-20000/11769 while holding setup sections constant. A quadratic scenario
-illustrates sensitivity to the assumed growth rate. These values are estimates,
-not measurements or confidence intervals. The report documents the limitations
-of single-run observations, different hosts and CPU-binding settings, profiling
-overhead, cache behavior, and differences in dataset composition.
-
-Observed local validation:
-python analyze_profiles.py completed successfully, validated three successful
-runs, and generated five figures. The pbmc10k cProfile chart was visually
-inspected. git diff --check found no whitespace errors. Notebook code cells
-remain unexecuted; embedded figures were generated by the analysis script.
-
-11. FILES AND CURRENT STATUS
-
-Vec-Mat:
-- matvec_multiply.py
-- matvec_test.py, renamed from matvec_tests.py
-- AI_code_gen.txt
-
-Profiling and reproducibility:
-- scanpy_pbmc.py and profile_sections.py
-- slurm/scanpy_pbmc.sbatch
-- requirements-oddjobs.txt
-- Successful run records under results/
-- analyze_profiles.py and profiling_report/
-- scanpy_profiling.ipynb
-- README.md, .gitignore, and .gitattributes
-
-Submission tracking and independent review:
-- SUBMISSION_CHECKLIST.md records completed and outstanding requirements.
-- The student subsequently supplied a Claude review response. Codex recorded
-  and translated it in ai_code_review.txt without performing the independent
-  review or changing the implementation in response. The actual prompt sent
-  to Claude remains to be supplied. Model details are attributed to the
-  reviewer's self-report rather than independently verified.
-
-No Python Quiz answers were generated or modified. The class-partner manual
-review remains outstanding. The notebook and PDF currently cover profiling
-rather than the complete homework submission. Numba caches and regenerable
-H5AD files are ignored by Git but were not deleted. Codex has not committed,
-pushed, or sent the repository link to the TA.
+No Python Quiz answers were generated or modified as part of this AI-assisted
+code-generation work.
